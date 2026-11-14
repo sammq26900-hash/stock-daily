@@ -224,7 +224,7 @@ tr:hover td{background:#e9f1fb}
       <div class="score-card"><div class="score-label">AI候選</div><div class="score-val">10</div></div>
       <div class="score-card"><div class="score-label">法人買超</div><div class="score-val">77</div></div>
       <div class="score-card"><div class="score-label">明日進處置</div><div class="score-val">0</div></div>
-      <div class="score-card"><div class="score-label">觀察清單</div><div class="score-val">59</div></div>
+      <div class="score-card"><div class="score-label">觀察清單</div><div class="score-val">110</div></div>
     </div>
   </div>
 </header>
@@ -242,13 +242,13 @@ tr:hover td{background:#e9f1fb}
   <div class="premarket-grid">
     <div class="premarket-card">
       <div class="premarket-label">台指期夜盤</div>
-      <div class="premarket-value" style="color:var(--green)">43706.00｜-0.30%</div>
-      <div class="premarket-sub">2026-11-14 08:00｜-133.00｜量 55,924｜Wantgoo all-quote-info</div>
+      <div class="premarket-value" style="color:var(--red)">43676｜1.27%</div>
+      <div class="premarket-sub">202611｜548｜量 79,972｜TAIFEX DailyMarketReportFut</div>
     </div>
     <div class="premarket-card">
       <div class="premarket-label">美股方向</div>
-      <div class="premarket-value" style="color:var(--green)">NASDAQ｜-0.91%</div>
-      <div class="premarket-sub">25136.27｜-229.82</div>
+      <div class="premarket-value" style="color:var(--green)">S&P 500｜-0.40%</div>
+      <div class="premarket-sub">7,561.67｜-30.73</div>
     </div>
     <div class="premarket-card">
       <div class="premarket-label">美國總經</div>
@@ -257,12 +257,12 @@ tr:hover td{background:#e9f1fb}
     </div>
     <div class="premarket-card">
       <div class="premarket-label">盤前結論</div>
-      <div class="premarket-value">夜盤偏空</div>
-      <div class="premarket-sub">美股偏空｜總經資料待確認｜AI/半導體</div>
+      <div class="premarket-value">夜盤偏多</div>
+      <div class="premarket-sub">美股偏空｜總經資料待確認｜AI/半導體、匯率/外資、財報/法說</div>
     </div>
   </div>
   <div class="premarket-list">
-    <ul><li>台指期夜盤 43706.00，-133.00（-0.30%），早盤先看現貨是否跟上夜盤方向。</li><li>NASDAQ 25136.27，-229.82（-0.91%），留意台積電、AI伺服器、電子權值股開盤反應。</li><li>美國總經資料未取得，盤前先用夜盤、美股期貨與權值股開盤量確認方向。</li><li>新聞關鍵字：AI/半導體，相關族群開盤若開高爆量，先看承接再追。</li><li>明日進處置名單壓力較小，但急漲未同買仍不追。</li></ul>
+    <ul><li>台指期夜盤 43676，548（1.27%），早盤先看現貨是否跟上夜盤方向。</li><li>S&P 500 7,561.67，-30.73（-0.40%），留意台積電、AI伺服器、電子權值股開盤反應。</li><li>美國總經資料未取得，盤前先用夜盤、美股期貨與權值股開盤量確認方向。</li><li>新聞關鍵字：AI/半導體、匯率/外資、財報/法說，相關族群開盤若開高爆量，先看承接再追。</li><li>明日進處置名單壓力較小，但急漲未同買仍不追。</li></ul>
   </div>
 </div>
 
@@ -296,18 +296,14 @@ tr:hover td{background:#e9f1fb}
         <div class="card-label">🏦 三大法人合計</div>
         <div style="color:var(--muted)">資料未取得</div>
       </div>
-      <div class="metric-card dn-card">
-        <div class="card-label">🇺🇸 NASDAQ</div>
-        <div class="card-val" style="font-size:1.15rem">25136.27</div>
-        <div class="card-chg" style="color:var(--green)">-229.82 (-0.91%)</div>
+      <div class="metric-card up-card">
+        <div class="card-label">🇺🇸 道瓊</div>
+        <div class="card-val" style="font-size:1.15rem">52,347.55</div>
+        <div class="card-chg" style="color:var(--red)">+50.45 (+0.10%)</div>
       </div><div class="metric-card dn-card">
-        <div class="card-label">🇺🇸 費城半導體</div>
-        <div class="card-val" style="font-size:1.15rem">10146.30</div>
-        <div class="card-chg" style="color:var(--green)">-360.40 (-3.43%)</div>
-      </div><div class="metric-card up-card">
-        <div class="card-label">🇺🇸 道瓊指數</div>
-        <div class="card-val" style="font-size:1.15rem">52347.55</div>
-        <div class="card-chg" style="color:var(--red)">+50.46 (+0.10%)</div>
+        <div class="card-label">🇺🇸 S&P 500</div>
+        <div class="card-val" style="font-size:1.15rem">7,561.67</div>
+        <div class="card-chg" style="color:var(--green)">-30.73 (-0.40%)</div>
       </div>
       
     </div>
@@ -321,7 +317,7 @@ tr:hover td{background:#e9f1fb}
   
   <div class="news-box">
     <div class="news-label">📰 今日重大財經新聞</div>
-    <ul><li>沒有黃仁勳的輝達 亞洲晶片廠商未來面臨什麼變化？</li><li>材料-KY布局購併進行中 1-9月每股賺進1.85元</li><li>26億資金活水注入 力晶投控未上市股流動性勁揚</li><li>羅昇機器人大腦打入國際頂級品牌供應鏈 累計出貨破千套</li><li>信立Q3受惠本業+業外挹注 獲利季增近3倍爆量成長</li><li>永捷麻豆廠明年Q3起生產環保材料訂單 Q3獲利虧轉盈</li><li>金管會准了！小資福音「主動式ETF期貨」年底掛牌 每口交易稅最低至6元</li><li>南亞受惠投信連14買站上300元 擬斥資115億元建廠支應玻纖布強勁需求</li></ul>
+    <ul><li>黃仁勳辭輝達執行長、MSCI調整台股增3刪4、台積電入股 Anthropic與OpenAI 本周大事回顧</li><li>國泰人壽斥逾92億元布局倉儲、危老案 通過發債350億元</li><li>〈熱門股〉東捷資訊搭資安列車 周漲逾4成股價創新高</li><li>玉山銀10月刷出980億元奪單月刷卡王 中信銀前10月衝破9000億元續稱霸</li><li>〈熱門股〉金像電前3季EPS逾28元稱霸PCB廠 股價衝鋒周漲26%</li><li>黃仁勳離職市值跌破4兆美元！輝達連六周收黑創14年紀錄 庫藏股護盤、台積電合作受矚</li><li>〈熱門股〉雷笛克光學車燈與AI雙引擎發動 外資連7買力挺周漲逾38%</li><li>〈熱門股〉奇鋐水冷產品展望正面 周漲逾3成收復月線</li></ul>
   </div>
 </div>
 
@@ -1321,12 +1317,12 @@ tr:hover td{background:#e9f1fb}
   <div class="sec-title t-watch">👁 AI 選股績效觀察區（從選股當日起算）</div>
   
   <div class="watch-perf-grid">
-    <div class="watch-perf-card"><div class="watch-perf-label">績效樣本</div><div class="watch-perf-val">49 / 59</div></div>
-    <div class="watch-perf-card"><div class="watch-perf-label">勝率</div><div class="watch-perf-val">57.1%</div></div>
-    <div class="watch-perf-card"><div class="watch-perf-label">平均報酬</div><div class="watch-perf-val" style="color:var(--red)">+1.19%</div></div>
-    <div class="watch-perf-card"><div class="watch-perf-label">每檔1張合計</div><div class="watch-perf-val" style="color:var(--red)">+254,800</div></div>
-    <div class="watch-perf-card"><div class="watch-perf-label">最佳</div><div class="watch-perf-val">4174 +33.68%</div></div>
-    <div class="watch-perf-card"><div class="watch-perf-label">最差</div><div class="watch-perf-val">2606 -12.50%</div></div>
+    <div class="watch-perf-card"><div class="watch-perf-label">績效樣本</div><div class="watch-perf-val">99 / 110</div></div>
+    <div class="watch-perf-card"><div class="watch-perf-label">勝率</div><div class="watch-perf-val">41.4%</div></div>
+    <div class="watch-perf-card"><div class="watch-perf-label">平均報酬</div><div class="watch-perf-val" style="color:var(--green)">-0.21%</div></div>
+    <div class="watch-perf-card"><div class="watch-perf-label">每檔1張合計</div><div class="watch-perf-val" style="color:var(--green)">-2,290,650</div></div>
+    <div class="watch-perf-card"><div class="watch-perf-label">最佳</div><div class="watch-perf-val">2468 +39.47%</div></div>
+    <div class="watch-perf-card"><div class="watch-perf-label">最差</div><div class="watch-perf-val">3324 -16.13%</div></div>
   </div>
   <div class="table-wrap">
   <table class="watch-table">
@@ -1336,70 +1332,57 @@ tr:hover td{background:#e9f1fb}
     </tr></thead>
     <tbody>
     <tr>
-        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2603" target="_blank" style="color:var(--blue)">2603</a></td>
-        <td>長榮 </td>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2618" target="_blank" style="color:var(--blue)">2618</a></td>
+        <td>長榮航 </td>
         <td style="font-size:.78rem;color:var(--purple)">航運</td>
         <td style="font-size:.78rem;color:var(--muted)">2026/10/31</td>
-        <td class="num" style="color:var(--muted)">271.5</td>
-        <td class="num">246.5</td>
-        <td class="num watch-ret" style="color:var(--green)">-9.21%</td>
-        <td class="num watch-ret" style="color:var(--green)">-25,000</td>
+        <td class="num" style="color:var(--muted)">42.75</td>
+        <td class="num">47.75</td>
+        <td class="num watch-ret" style="color:var(--red)">+11.70%</td>
+        <td class="num watch-ret" style="color:var(--red)">+5,000</td>
         <td class="num" style="color:var(--muted)">14天</td>
-        <td><div class="watch-reason">選股分 84<br>法人同買、航運+1.94%、動能健康+4.02%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/08 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+2.4%</span></div></td>
-        <td><a href="https://histock.tw/stock/2603" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+        <td><div class="watch-reason">選股分 70<br>法人同買、航運+1.94%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#fff8e8;color:#b45309;border:1px solid #f59e0b">守停利</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">保護獲利，不追高加碼</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+1.8%</span></div></td>
+        <td><a href="https://histock.tw/stock/2618" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
-        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2615" target="_blank" style="color:var(--blue)">2615</a></td>
-        <td>萬海 </td>
-        <td style="font-size:.78rem;color:var(--purple)">航運</td>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=1443" target="_blank" style="color:var(--blue)">1443</a></td>
+        <td>立益物流 </td>
+        <td style="font-size:.78rem;color:var(--purple)">其他</td>
         <td style="font-size:.78rem;color:var(--muted)">2026/10/31</td>
-        <td class="num" style="color:var(--muted)">120</td>
-        <td class="num">107.5</td>
-        <td class="num watch-ret" style="color:var(--green)">-10.42%</td>
-        <td class="num watch-ret" style="color:var(--green)">-12,500</td>
+        <td class="num" style="color:var(--muted)">23.9</td>
+        <td class="num">23.25</td>
+        <td class="num watch-ret" style="color:var(--green)">-2.72%</td>
+        <td class="num watch-ret" style="color:var(--green)">-650</td>
         <td class="num" style="color:var(--muted)">14天</td>
-        <td><div class="watch-reason">選股分 84<br>法人同買、航運+1.94%、動能健康+4.35%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/08 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+0.5%</span></div></td>
-        <td><a href="https://histock.tw/stock/2615" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
-      </tr><tr>
-        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2609" target="_blank" style="color:var(--blue)">2609</a></td>
-        <td>陽明 </td>
-        <td style="font-size:.78rem;color:var(--purple)">航運</td>
-        <td style="font-size:.78rem;color:var(--muted)">2026/10/31</td>
-        <td class="num" style="color:var(--muted)">63.5</td>
-        <td class="num">57.1</td>
-        <td class="num watch-ret" style="color:var(--green)">-10.08%</td>
-        <td class="num watch-ret" style="color:var(--green)">-6,400</td>
-        <td class="num" style="color:var(--muted)">14天</td>
-        <td><div class="watch-reason">選股分 68<br>航運+1.94%、動能健康+2.42%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/08 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#ef4444;font-size:.68rem">今+3.6%</span></div></td>
-        <td><a href="https://histock.tw/stock/2609" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
-      </tr><tr>
-        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2606" target="_blank" style="color:var(--blue)">2606</a></td>
-        <td>裕民 </td>
-        <td style="font-size:.78rem;color:var(--purple)">航運</td>
-        <td style="font-size:.78rem;color:var(--muted)">2026/10/31</td>
-        <td class="num" style="color:var(--muted)">76</td>
-        <td class="num">66.5</td>
-        <td class="num watch-ret" style="color:var(--green)">-12.50%</td>
-        <td class="num watch-ret" style="color:var(--green)">-9,500</td>
-        <td class="num" style="color:var(--muted)">14天</td>
-        <td><div class="watch-reason">選股分 68<br>航運+1.94%、動能健康+2.29%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/08 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#ef4444;font-size:.68rem">今+3.1%</span></div></td>
-        <td><a href="https://histock.tw/stock/2606" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+        <td><div class="watch-reason">選股分 68<br>航運+1.94%、動能健康+2.14%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已結案</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/10 汰弱：持有滿 10 天仍未轉強，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+1.1%</span></div></td>
+        <td><a href="https://histock.tw/stock/1443" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
         <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=4904" target="_blank" style="color:var(--blue)">4904</a></td>
         <td>遠傳 </td>
         <td style="font-size:.78rem;color:var(--purple)">通信網路</td>
         <td style="font-size:.78rem;color:var(--muted)">2026/10/31</td>
-        <td class="num" style="color:var(--muted)">114</td>
+        <td class="num" style="color:var(--muted)">113</td>
         <td class="num">106</td>
-        <td class="num watch-ret" style="color:var(--green)">-7.02%</td>
-        <td class="num watch-ret" style="color:var(--green)">-8,000</td>
+        <td class="num watch-ret" style="color:var(--green)">-6.19%</td>
+        <td class="num watch-ret" style="color:var(--green)">-7,000</td>
         <td class="num" style="color:var(--muted)">14天</td>
         <td><div class="watch-reason">選股分 66<br>法人同買、電信服務+0.73%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/10 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+1.4%</span></div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已結案</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/10 汰弱：持有滿 7 天仍跌破 -3% 且未回到 AI 候選，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+1.4%</span></div></td>
         <td><a href="https://histock.tw/stock/4904" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=3045" target="_blank" style="color:var(--blue)">3045</a></td>
+        <td>台灣大 </td>
+        <td style="font-size:.78rem;color:var(--purple)">通信網路</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/10/31</td>
+        <td class="num" style="color:var(--muted)">134.5</td>
+        <td class="num">131</td>
+        <td class="num watch-ret" style="color:var(--green)">-2.60%</td>
+        <td class="num watch-ret" style="color:var(--green)">-3,500</td>
+        <td class="num" style="color:var(--muted)">14天</td>
+        <td><div class="watch-reason">選股分 66<br>法人同買、電信服務+0.73%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已結案</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/10 汰弱：持有滿 10 天仍未轉強，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#ef4444;font-size:.68rem">今+0.8%</span></div></td>
+        <td><a href="https://histock.tw/stock/3045" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
         <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=8905" target="_blank" style="color:var(--blue)">8905</a></td>
         <td>裕國 </td>
@@ -1414,31 +1397,83 @@ tr:hover td{background:#e9f1fb}
         <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#fff0f0;color:#dc2626;border:1px solid #fca5a5">汰弱留強</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">持有多日仍沒轉強，資金可換到主流</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span></div></td>
         <td><a href="https://histock.tw/stock/8905" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
-        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2618" target="_blank" style="color:var(--blue)">2618</a></td>
-        <td>長榮航 </td>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2603" target="_blank" style="color:var(--blue)">2603</a></td>
+        <td>長榮 </td>
         <td style="font-size:.78rem;color:var(--purple)">航運</td>
         <td style="font-size:.78rem;color:var(--muted)">2026/10/31</td>
-        <td class="num" style="color:var(--muted)">42.7</td>
-        <td class="num">47.75</td>
-        <td class="num watch-ret" style="color:var(--red)">+11.83%</td>
-        <td class="num watch-ret" style="color:var(--red)">+5,050</td>
+        <td class="num" style="color:var(--muted)">261</td>
+        <td class="num">246.5</td>
+        <td class="num watch-ret" style="color:var(--green)">-5.56%</td>
+        <td class="num watch-ret" style="color:var(--green)">-14,500</td>
         <td class="num" style="color:var(--muted)">14天</td>
         <td><div class="watch-reason">選股分 65<br>法人同買、航運+1.94%、今日小跌</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#fff8e8;color:#b45309;border:1px solid #f59e0b">守停利</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">保護獲利，不追高加碼</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+1.8%</span></div></td>
-        <td><a href="https://histock.tw/stock/2618" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已結案</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/07 汰弱：持有滿 7 天仍跌破 -3% 且未回到 AI 候選，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+2.4%</span></div></td>
+        <td><a href="https://histock.tw/stock/2603" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2615" target="_blank" style="color:var(--blue)">2615</a></td>
+        <td>萬海 </td>
+        <td style="font-size:.78rem;color:var(--purple)">航運</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/10/31</td>
+        <td class="num" style="color:var(--muted)">115</td>
+        <td class="num">107.5</td>
+        <td class="num watch-ret" style="color:var(--green)">-6.52%</td>
+        <td class="num watch-ret" style="color:var(--green)">-7,500</td>
+        <td class="num" style="color:var(--muted)">14天</td>
+        <td><div class="watch-reason">選股分 65<br>法人同買、航運+1.94%、今日小跌</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已結案</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/07 汰弱：持有滿 7 天仍跌破 -3% 且未回到 AI 候選，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+0.5%</span></div></td>
+        <td><a href="https://histock.tw/stock/2615" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
         <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2379" target="_blank" style="color:var(--blue)">2379</a></td>
         <td>瑞昱 <span class="watch-tag">⭐今日雙訊</span></td>
         <td style="font-size:.78rem;color:var(--purple)">半導體</td>
         <td style="font-size:.78rem;color:var(--muted)">2026/10/31</td>
-        <td class="num" style="color:var(--muted)">803</td>
-        <td class="num">708</td>
-        <td class="num watch-ret" style="color:var(--green)">-11.83%</td>
-        <td class="num watch-ret" style="color:var(--green)">-95,000</td>
+        <td class="num" style="color:var(--muted)">794</td>
+        <td class="num">720</td>
+        <td class="num watch-ret" style="color:var(--green)">-9.32%</td>
+        <td class="num watch-ret" style="color:var(--green)">-74,000</td>
         <td class="num" style="color:var(--muted)">14天</td>
         <td><div class="watch-reason">選股分 64<br>法人同買、主流題材</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/08 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#7c3aed;font-size:.68rem">主流:IC-設計</span><span style="color:#ef4444;font-size:.68rem">今+2.6%</span><span style="color:#ef4444;font-size:.68rem">外資+640</span><span style="color:#ef4444;font-size:.68rem">投信+133</span></div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/07 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#7c3aed;font-size:.68rem">主流:IC-設計</span><span style="color:#ef4444;font-size:.68rem">今+2.6%</span><span style="color:#ef4444;font-size:.68rem">外資+640</span><span style="color:#ef4444;font-size:.68rem">投信+133</span></div></td>
         <td><a href="https://histock.tw/stock/2379" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2347" target="_blank" style="color:var(--blue)">2347</a></td>
+        <td>聯強 </td>
+        <td style="font-size:.78rem;color:var(--purple)">電子通路</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/10/31</td>
+        <td class="num" style="color:var(--muted)">102</td>
+        <td class="num">94.5</td>
+        <td class="num watch-ret" style="color:var(--green)">-7.35%</td>
+        <td class="num watch-ret" style="color:var(--green)">-7,500</td>
+        <td class="num" style="color:var(--muted)">14天</td>
+        <td><div class="watch-reason">選股分 59<br>法人同買、主流題材、今日小跌</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/03 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#22c55e;font-size:.68rem">今-0.8%</span></div></td>
+        <td><a href="https://histock.tw/stock/2347" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2609" target="_blank" style="color:var(--blue)">2609</a></td>
+        <td>陽明 </td>
+        <td style="font-size:.78rem;color:var(--purple)">航運</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/10/31</td>
+        <td class="num" style="color:var(--muted)">63.5</td>
+        <td class="num">60</td>
+        <td class="num watch-ret" style="color:var(--green)">-5.51%</td>
+        <td class="num watch-ret" style="color:var(--green)">-3,500</td>
+        <td class="num" style="color:var(--muted)">14天</td>
+        <td><div class="watch-reason">選股分 68<br>航運+1.94%、動能健康+2.42%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已結案</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/07 汰弱：持有滿 7 天仍跌破 -3% 且未回到 AI 候選，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#ef4444;font-size:.68rem">今+3.6%</span></div></td>
+        <td><a href="https://histock.tw/stock/2609" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2606" target="_blank" style="color:var(--blue)">2606</a></td>
+        <td>裕民 </td>
+        <td style="font-size:.78rem;color:var(--purple)">航運</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/10/31</td>
+        <td class="num" style="color:var(--muted)">76</td>
+        <td class="num">70.2</td>
+        <td class="num watch-ret" style="color:var(--green)">-7.63%</td>
+        <td class="num watch-ret" style="color:var(--green)">-5,800</td>
+        <td class="num" style="color:var(--muted)">14天</td>
+        <td><div class="watch-reason">選股分 68<br>航運+1.94%、動能健康+2.29%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/04 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#ef4444;font-size:.68rem">今+3.1%</span></div></td>
+        <td><a href="https://histock.tw/stock/2606" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
         <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2480" target="_blank" style="color:var(--blue)">2480</a></td>
         <td>敦陽科 </td>
@@ -1450,8 +1485,138 @@ tr:hover td{background:#e9f1fb}
         <td class="num watch-ret" style="color:var(--green)">-18,500</td>
         <td class="num" style="color:var(--muted)">14天</td>
         <td><div class="watch-reason">選股分 64<br>法人同買、主流題材</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/08 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#ef4444;font-size:.68rem">今+2.6%</span></div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/07 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#ef4444;font-size:.68rem">今+2.6%</span></div></td>
         <td><a href="https://histock.tw/stock/2480" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2468" target="_blank" style="color:var(--blue)">2468</a></td>
+        <td>華經 </td>
+        <td style="font-size:.78rem;color:var(--purple)">資訊服務</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/03</td>
+        <td class="num" style="color:var(--muted)">53.2</td>
+        <td class="num">74.2</td>
+        <td class="num watch-ret" style="color:var(--red)">+39.47%</td>
+        <td class="num watch-ret" style="color:var(--red)">+21,000</td>
+        <td class="num" style="color:var(--muted)">11天</td>
+        <td><div class="watch-reason">選股分 76<br>主流題材、量價排行強、動能健康+4.11%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#fff8e8;color:#b45309;border:1px solid #f59e0b">分批落袋</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">獲利已高，訊號不夠強就先收一段</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+9.9%</span></div></td>
+        <td><a href="https://histock.tw/stock/2468" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2371" target="_blank" style="color:var(--blue)">2371</a></td>
+        <td>大同 </td>
+        <td style="font-size:.78rem;color:var(--purple)">電機機械</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/03</td>
+        <td class="num" style="color:var(--muted)">27.95</td>
+        <td class="num">27.1</td>
+        <td class="num watch-ret" style="color:var(--green)">-3.04%</td>
+        <td class="num watch-ret" style="color:var(--green)">-850</td>
+        <td class="num" style="color:var(--muted)">11天</td>
+        <td><div class="watch-reason">選股分 73<br>法人同買、主流題材、量價排行強、今日小跌</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已結案</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/12 汰弱：持有滿 7 天仍跌破 -3% 且未回到 AI 候選，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+1.9%</span></div></td>
+        <td><a href="https://histock.tw/stock/2371" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=3481" target="_blank" style="color:var(--blue)">3481</a></td>
+        <td>群創 </td>
+        <td style="font-size:.78rem;color:var(--purple)">光電</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/03</td>
+        <td class="num" style="color:var(--muted)">42.55</td>
+        <td class="num">38</td>
+        <td class="num watch-ret" style="color:var(--green)">-10.69%</td>
+        <td class="num watch-ret" style="color:var(--green)">-4,550</td>
+        <td class="num" style="color:var(--muted)">11天</td>
+        <td><div class="watch-reason">選股分 64<br>法人同買、概念股_Mini/Micro LED+2.36%、主流題材、今日轉弱-7.5%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/07 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#ef4444;font-size:.68rem">今+2.8%</span></div></td>
+        <td><a href="https://histock.tw/stock/3481" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=3615" target="_blank" style="color:var(--blue)">3615</a></td>
+        <td>安可 </td>
+        <td style="font-size:.78rem;color:var(--purple)">電子工</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/03</td>
+        <td class="num" style="color:var(--muted)">40.4</td>
+        <td class="num">37.05</td>
+        <td class="num watch-ret" style="color:var(--green)">-8.29%</td>
+        <td class="num watch-ret" style="color:var(--green)">-3,350</td>
+        <td class="num" style="color:var(--muted)">11天</td>
+        <td><div class="watch-reason">選股分 64<br>LCD-STN面板+3.15%、動能健康+3.86%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/04 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+3.2%</span></div></td>
+        <td><a href="https://histock.tw/stock/3615" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=1615" target="_blank" style="color:var(--blue)">1615</a></td>
+        <td>大山 </td>
+        <td style="font-size:.78rem;color:var(--purple)">電器電纜</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/03</td>
+        <td class="num" style="color:var(--muted)">46.1</td>
+        <td class="num">43.2</td>
+        <td class="num watch-ret" style="color:var(--green)">-6.29%</td>
+        <td class="num watch-ret" style="color:var(--green)">-2,900</td>
+        <td class="num" style="color:var(--muted)">11天</td>
+        <td><div class="watch-reason">選股分 63<br>法人同買、電線電纜+3.5%、今日小跌</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已結案</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/10 汰弱：持有滿 7 天仍跌破 -3% 且未回到 AI 候選，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+0.5%</span></div></td>
+        <td><a href="https://histock.tw/stock/1615" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=3324" target="_blank" style="color:var(--blue)">3324</a></td>
+        <td>雙鴻 </td>
+        <td style="font-size:.78rem;color:var(--purple)">通信網路</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/03</td>
+        <td class="num" style="color:var(--muted)">1395</td>
+        <td class="num">1170</td>
+        <td class="num watch-ret" style="color:var(--green)">-16.13%</td>
+        <td class="num watch-ret" style="color:var(--green)">-225,000</td>
+        <td class="num" style="color:var(--muted)">11天</td>
+        <td><div class="watch-reason">選股分 62<br>概念股_加密資產/挖礦+2.88%、動能健康+4.89%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/06 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#22c55e;font-size:.68rem">今-2.6%</span></div></td>
+        <td><a href="https://histock.tw/stock/3324" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=6150" target="_blank" style="color:var(--blue)">6150</a></td>
+        <td>撼訊 </td>
+        <td style="font-size:.78rem;color:var(--purple)">電子工</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/03</td>
+        <td class="num" style="color:var(--muted)">67.2</td>
+        <td class="num">62</td>
+        <td class="num watch-ret" style="color:var(--green)">-7.74%</td>
+        <td class="num watch-ret" style="color:var(--green)">-5,200</td>
+        <td class="num" style="color:var(--muted)">11天</td>
+        <td><div class="watch-reason">選股分 62<br>概念股_加密資產/挖礦+2.88%、動能健康+3.38%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/07 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+4.1%</span></div></td>
+        <td><a href="https://histock.tw/stock/6150" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=3491" target="_blank" style="color:var(--blue)">3491</a></td>
+        <td>昇達科 </td>
+        <td style="font-size:.78rem;color:var(--purple)">其他電子</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/03</td>
+        <td class="num" style="color:var(--muted)">1300</td>
+        <td class="num">1180</td>
+        <td class="num watch-ret" style="color:var(--green)">-9.23%</td>
+        <td class="num watch-ret" style="color:var(--green)">-120,000</td>
+        <td class="num" style="color:var(--muted)">11天</td>
+        <td><div class="watch-reason">選股分 60<br>概念股_反無人機+2.69%、動能健康+3.59%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/06 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#22c55e;font-size:.68rem">今-1.7%</span></div></td>
+        <td><a href="https://histock.tw/stock/3491" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=1605" target="_blank" style="color:var(--blue)">1605</a></td>
+        <td>華新 </td>
+        <td style="font-size:.78rem;color:var(--purple)">電器電纜</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/03</td>
+        <td class="num" style="color:var(--muted)">37.6</td>
+        <td class="num">34.45</td>
+        <td class="num watch-ret" style="color:var(--green)">-8.38%</td>
+        <td class="num watch-ret" style="color:var(--green)">-3,150</td>
+        <td class="num" style="color:var(--muted)">11天</td>
+        <td><div class="watch-reason">選股分 82<br>法人同買、電線電纜+3.5%、動能健康+4.59%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/05 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+0.1%</span></div></td>
+        <td><a href="https://histock.tw/stock/1605" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2449" target="_blank" style="color:var(--blue)">2449</a></td>
+        <td>京元電子 </td>
+        <td style="font-size:.78rem;color:var(--purple)">半導體</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/03</td>
+        <td class="num" style="color:var(--muted)">263</td>
+        <td class="num">228.5</td>
+        <td class="num watch-ret" style="color:var(--green)">-13.12%</td>
+        <td class="num watch-ret" style="color:var(--green)">-34,500</td>
+        <td class="num" style="color:var(--muted)">11天</td>
+        <td><div class="watch-reason">選股分 78<br>法人同買、主流題材、動能健康+3.75%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/07 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#22c55e;font-size:.68rem">今-0.2%</span></div></td>
+        <td><a href="https://histock.tw/stock/2449" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
         <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=1802" target="_blank" style="color:var(--blue)">1802</a></td>
         <td>台玻 </td>
@@ -1462,19 +1627,58 @@ tr:hover td{background:#e9f1fb}
         <td class="num watch-ret" style="color:var(--green)">-9.26%</td>
         <td class="num watch-ret" style="color:var(--green)">-5,900</td>
         <td class="num" style="color:var(--muted)">11天</td>
-        <td><div class="watch-reason">選股分 82<br>玻璃陶瓷+5.44%、量價排行強、動能健康+2.25%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/08 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+4.2%</span></div></td>
+        <td><div class="watch-reason">選股分 70<br>法人同買、動能健康+2.25%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/07 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+4.2%</span></div></td>
         <td><a href="https://histock.tw/stock/1802" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=6191" target="_blank" style="color:var(--blue)">6191</a></td>
+        <td>精成科 </td>
+        <td style="font-size:.78rem;color:var(--purple)">電子零組件</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/03</td>
+        <td class="num" style="color:var(--muted)">82</td>
+        <td class="num">71.7</td>
+        <td class="num watch-ret" style="color:var(--green)">-12.56%</td>
+        <td class="num watch-ret" style="color:var(--green)">-10,300</td>
+        <td class="num" style="color:var(--muted)">11天</td>
+        <td><div class="watch-reason">選股分 70<br>法人同買、動能健康+4.46%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/07 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+2.1%</span></div></td>
+        <td><a href="https://histock.tw/stock/6191" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=6285" target="_blank" style="color:var(--blue)">6285</a></td>
+        <td>啟碁 </td>
+        <td style="font-size:.78rem;color:var(--purple)">通信網路</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/03</td>
+        <td class="num" style="color:var(--muted)">219.5</td>
+        <td class="num">203.5</td>
+        <td class="num watch-ret" style="color:var(--green)">-7.29%</td>
+        <td class="num watch-ret" style="color:var(--green)">-16,000</td>
+        <td class="num" style="color:var(--muted)">11天</td>
+        <td><div class="watch-reason">選股分 70<br>法人同買、動能健康+3.05%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/04 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+3.2%</span></div></td>
+        <td><a href="https://histock.tw/stock/6285" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2441" target="_blank" style="color:var(--blue)">2441</a></td>
+        <td>超豐 </td>
+        <td style="font-size:.78rem;color:var(--purple)">半導體</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/03</td>
+        <td class="num" style="color:var(--muted)">113</td>
+        <td class="num">103</td>
+        <td class="num watch-ret" style="color:var(--green)">-8.85%</td>
+        <td class="num watch-ret" style="color:var(--green)">-10,000</td>
+        <td class="num" style="color:var(--muted)">11天</td>
+        <td><div class="watch-reason">選股分 68<br>法人同買、主流題材、偏熱等拉回+6.1%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/07 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+1.9%</span></div></td>
+        <td><a href="https://histock.tw/stock/2441" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
         <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2023" target="_blank" style="color:var(--blue)">2023</a></td>
         <td>燁輝 </td>
         <td style="font-size:.78rem;color:var(--purple)">鋼鐵</td>
-        <td style="font-size:.78rem;color:var(--muted)">2026/11/03</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/04</td>
         <td class="num" style="color:var(--muted)">14.8</td>
         <td class="num">14.1</td>
         <td class="num watch-ret" style="color:var(--green)">-4.73%</td>
         <td class="num watch-ret" style="color:var(--green)">-700</td>
-        <td class="num" style="color:var(--muted)">11天</td>
+        <td class="num" style="color:var(--muted)">10天</td>
         <td><div class="watch-reason">選股分 70<br>法人同買、動能健康+3.14%</div></td>
         <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已結案</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/12 汰弱：持有滿 7 天仍跌破 -3% 且未回到 AI 候選，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#22c55e;font-size:.68rem">今-0.3%</span></div></td>
         <td><a href="https://histock.tw/stock/2023" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
@@ -1482,51 +1686,38 @@ tr:hover td{background:#e9f1fb}
         <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=1229" target="_blank" style="color:var(--blue)">1229</a></td>
         <td>聯華 </td>
         <td style="font-size:.78rem;color:var(--purple)">食品</td>
-        <td style="font-size:.78rem;color:var(--muted)">2026/11/03</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/04</td>
         <td class="num" style="color:var(--muted)">39.95</td>
         <td class="num">38.1</td>
         <td class="num watch-ret" style="color:var(--green)">-4.63%</td>
         <td class="num watch-ret" style="color:var(--green)">-1,850</td>
-        <td class="num" style="color:var(--muted)">11天</td>
+        <td class="num" style="color:var(--muted)">10天</td>
         <td><div class="watch-reason">選股分 66<br>法人同買、食品+0.03%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已結案</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/10 汰弱：持有滿 7 天仍跌破 -3% 且未回到 AI 候選，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+0.1%</span></div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已結案</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/11 汰弱：持有滿 7 天仍跌破 -3% 且未回到 AI 候選，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+0.1%</span></div></td>
         <td><a href="https://histock.tw/stock/1229" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
-      </tr><tr>
-        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2254" target="_blank" style="color:var(--blue)">2254</a></td>
-        <td>巨鎧精密-創 </td>
-        <td style="font-size:.78rem;color:var(--purple)">汽車</td>
-        <td style="font-size:.78rem;color:var(--muted)">2026/11/03</td>
-        <td class="num" style="color:var(--muted)">106.5</td>
-        <td class="num">109.5</td>
-        <td class="num watch-ret" style="color:var(--red)">+2.82%</td>
-        <td class="num watch-ret" style="color:var(--red)">+3,000</td>
-        <td class="num" style="color:var(--muted)">11天</td>
-        <td><div class="watch-reason">選股分 66<br>汽車+0.24%、動能健康+2.9%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#fff0f0;color:#dc2626;border:1px solid #fca5a5">汰弱留強</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">持有多日仍沒轉強，資金可換到主流</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#22c55e;font-size:.68rem">今-0.5%</span></div></td>
-        <td><a href="https://histock.tw/stock/2254" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
         <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=1232" target="_blank" style="color:var(--blue)">1232</a></td>
         <td>大統益 </td>
         <td style="font-size:.78rem;color:var(--purple)">食品</td>
-        <td style="font-size:.78rem;color:var(--muted)">2026/11/03</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/04</td>
         <td class="num" style="color:var(--muted)">164</td>
-        <td class="num">158</td>
-        <td class="num watch-ret" style="color:var(--green)">-3.66%</td>
-        <td class="num watch-ret" style="color:var(--green)">-6,000</td>
-        <td class="num" style="color:var(--muted)">11天</td>
+        <td class="num">159</td>
+        <td class="num watch-ret" style="color:var(--green)">-3.05%</td>
+        <td class="num watch-ret" style="color:var(--green)">-5,000</td>
+        <td class="num" style="color:var(--muted)">10天</td>
         <td><div class="watch-reason">選股分 64<br>食品+0.03%、動能健康+4.13%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已結案</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/10 汰弱：持有滿 7 天仍跌破 -3% 且未回到 AI 候選，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+2.2%</span></div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已結案</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/11 汰弱：持有滿 7 天仍跌破 -3% 且未回到 AI 候選，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+2.2%</span></div></td>
         <td><a href="https://histock.tw/stock/1232" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
         <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=1235" target="_blank" style="color:var(--blue)">1235</a></td>
         <td>興泰 </td>
         <td style="font-size:.78rem;color:var(--purple)">食品</td>
-        <td style="font-size:.78rem;color:var(--muted)">2026/11/03</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/04</td>
         <td class="num" style="color:var(--muted)">32.85</td>
         <td class="num">34.8</td>
         <td class="num watch-ret" style="color:var(--red)">+5.94%</td>
         <td class="num watch-ret" style="color:var(--red)">+1,950</td>
-        <td class="num" style="color:var(--muted)">11天</td>
+        <td class="num" style="color:var(--muted)">10天</td>
         <td><div class="watch-reason">選股分 64<br>食品+0.03%、動能健康+2.66%</div></td>
         <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">等待法人或族群訊號延續</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+2.4%</span></div></td>
         <td><a href="https://histock.tw/stock/1235" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
@@ -1534,41 +1725,444 @@ tr:hover td{background:#e9f1fb}
         <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=6550" target="_blank" style="color:var(--blue)">6550</a></td>
         <td>北極星藥業-KY </td>
         <td style="font-size:.78rem;color:var(--purple)">生技醫療</td>
-        <td style="font-size:.78rem;color:var(--muted)">2026/11/03</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/04</td>
         <td class="num" style="color:var(--muted)">15.05</td>
         <td class="num">13.7</td>
         <td class="num watch-ret" style="color:var(--green)">-8.97%</td>
         <td class="num watch-ret" style="color:var(--green)">-1,350</td>
-        <td class="num" style="color:var(--muted)">11天</td>
+        <td class="num" style="color:var(--muted)">10天</td>
         <td><div class="watch-reason">選股分 62<br>概念股_新藥研發+2.03%、動能健康+2.03%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/08 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+1.9%</span></div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/07 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+1.9%</span></div></td>
         <td><a href="https://histock.tw/stock/6550" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=1233" target="_blank" style="color:var(--blue)">1233</a></td>
+        <td>天仁 </td>
+        <td style="font-size:.78rem;color:var(--purple)">食品</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/04</td>
+        <td class="num" style="color:var(--muted)">28.8</td>
+        <td class="num">28.2</td>
+        <td class="num watch-ret" style="color:var(--green)">-2.08%</td>
+        <td class="num watch-ret" style="color:var(--green)">-600</td>
+        <td class="num" style="color:var(--muted)">10天</td>
+        <td><div class="watch-reason">選股分 64<br>食品+0.03%、動能健康+2.31%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已結案</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/14 汰弱：持有滿 10 天仍未轉強，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+0.3%</span></div></td>
+        <td><a href="https://histock.tw/stock/1233" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2421" target="_blank" style="color:var(--blue)">2421</a></td>
+        <td>建準 </td>
+        <td style="font-size:.78rem;color:var(--purple)">電子零組件</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/05</td>
+        <td class="num" style="color:var(--muted)">141.5</td>
+        <td class="num">131</td>
+        <td class="num watch-ret" style="color:var(--green)">-7.42%</td>
+        <td class="num watch-ret" style="color:var(--green)">-10,500</td>
+        <td class="num" style="color:var(--muted)">9天</td>
+        <td><div class="watch-reason">選股分 84<br>散熱零組件+5.56%、主流題材、動能健康+2.54%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/07 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+2.3%</span></div></td>
+        <td><a href="https://histock.tw/stock/2421" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=6124" target="_blank" style="color:var(--blue)">6124</a></td>
+        <td>業強 </td>
+        <td style="font-size:.78rem;color:var(--purple)">電子工</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/05</td>
+        <td class="num" style="color:var(--muted)">24.9</td>
+        <td class="num">25</td>
+        <td class="num watch-ret" style="color:var(--red)">+0.40%</td>
+        <td class="num watch-ret" style="color:var(--red)">+100</td>
+        <td class="num" style="color:var(--muted)">9天</td>
+        <td><div class="watch-reason">選股分 84<br>散熱零組件+5.56%、主流題材、動能健康+2.89%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#fff0f0;color:#dc2626;border:1px solid #fca5a5">汰弱留強</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">持有多日仍沒轉強，資金可換到主流</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+1.4%</span></div></td>
+        <td><a href="https://histock.tw/stock/6124" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=3443" target="_blank" style="color:var(--blue)">3443</a></td>
+        <td>創意 </td>
+        <td style="font-size:.78rem;color:var(--purple)">半導體</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/05</td>
+        <td class="num" style="color:var(--muted)">7115</td>
+        <td class="num">6405</td>
+        <td class="num watch-ret" style="color:var(--green)">-9.98%</td>
+        <td class="num watch-ret" style="color:var(--green)">-710,000</td>
+        <td class="num" style="color:var(--muted)">9天</td>
+        <td><div class="watch-reason">選股分 80<br>IP/ASIC+3.24%、主流題材、動能健康+4.71%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/07 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#7c3aed;font-size:.68rem">主流:IP/ASIC</span><span style="color:#ef4444;font-size:.68rem">今+9.5%</span></div></td>
+        <td><a href="https://histock.tw/stock/3443" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=6423" target="_blank" style="color:var(--blue)">6423</a></td>
+        <td>億而得 <span class="watch-tag">⭐今日雙訊</span></td>
+        <td style="font-size:.78rem;color:var(--purple)">電子工</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/05</td>
+        <td class="num" style="color:var(--muted)">78.7</td>
+        <td class="num">84.2</td>
+        <td class="num watch-ret" style="color:var(--red)">+6.99%</td>
+        <td class="num watch-ret" style="color:var(--red)">+5,500</td>
+        <td class="num" style="color:var(--muted)">9天</td>
+        <td><div class="watch-reason">選股分 80<br>IP/ASIC+3.24%、主流題材、動能健康+2.47%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#f0fdf4;color:#15803d;border:1px solid #86efac">續抱觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">小獲利且訊號偏多</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#7c3aed;font-size:.68rem">主流:IP/ASIC</span><span style="color:#ef4444;font-size:.68rem">今+2.1%</span></div></td>
+        <td><a href="https://histock.tw/stock/6423" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2478" target="_blank" style="color:var(--blue)">2478</a></td>
+        <td>大毅 </td>
+        <td style="font-size:.78rem;color:var(--purple)">電子零組件</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/05</td>
+        <td class="num" style="color:var(--muted)">106</td>
+        <td class="num">95.7</td>
+        <td class="num watch-ret" style="color:var(--green)">-9.72%</td>
+        <td class="num watch-ret" style="color:var(--green)">-10,300</td>
+        <td class="num" style="color:var(--muted)">9天</td>
+        <td><div class="watch-reason">選股分 78<br>法人同買、主流題材、動能健康+3.41%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/07 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+3.5%</span></div></td>
+        <td><a href="https://histock.tw/stock/2478" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=3653" target="_blank" style="color:var(--blue)">3653</a></td>
+        <td>健策 </td>
+        <td style="font-size:.78rem;color:var(--purple)">電子零組件</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/05</td>
+        <td class="num" style="color:var(--muted)">6450</td>
+        <td class="num">5805</td>
+        <td class="num watch-ret" style="color:var(--green)">-10.00%</td>
+        <td class="num watch-ret" style="color:var(--green)">-645,000</td>
+        <td class="num" style="color:var(--muted)">9天</td>
+        <td><div class="watch-reason">選股分 74<br>散熱零組件+5.56%、主流題材、偏熱等拉回+6.88%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/07 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#22c55e;font-size:.68rem">今-4.6%</span></div></td>
+        <td><a href="https://histock.tw/stock/3653" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=3023" target="_blank" style="color:var(--blue)">3023</a></td>
+        <td>信邦 </td>
+        <td style="font-size:.78rem;color:var(--purple)">電子零組件</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/05</td>
+        <td class="num" style="color:var(--muted)">247.5</td>
+        <td class="num">260</td>
+        <td class="num watch-ret" style="color:var(--red)">+5.05%</td>
+        <td class="num watch-ret" style="color:var(--red)">+12,500</td>
+        <td class="num" style="color:var(--muted)">9天</td>
+        <td><div class="watch-reason">選股分 70<br>法人同買、動能健康+4.21%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">等待法人或族群訊號延續</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#22c55e;font-size:.68rem">今-1.1%</span></div></td>
+        <td><a href="https://histock.tw/stock/3023" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=6831" target="_blank" style="color:var(--blue)">6831</a></td>
+        <td>邁科 </td>
+        <td style="font-size:.78rem;color:var(--purple)">電腦週邊</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/05</td>
+        <td class="num" style="color:var(--muted)">332.5</td>
+        <td class="num">299.5</td>
+        <td class="num watch-ret" style="color:var(--green)">-9.92%</td>
+        <td class="num watch-ret" style="color:var(--green)">-33,000</td>
+        <td class="num" style="color:var(--muted)">9天</td>
+        <td><div class="watch-reason">選股分 70<br>散熱零組件+5.56%、主流題材</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/07 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+3.4%</span></div></td>
+        <td><a href="https://histock.tw/stock/6831" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=3483" target="_blank" style="color:var(--blue)">3483</a></td>
+        <td>力致 </td>
+        <td style="font-size:.78rem;color:var(--purple)">其他電子</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/05</td>
+        <td class="num" style="color:var(--muted)">80.8</td>
+        <td class="num">74.5</td>
+        <td class="num watch-ret" style="color:var(--green)">-7.80%</td>
+        <td class="num watch-ret" style="color:var(--green)">-6,300</td>
+        <td class="num" style="color:var(--muted)">9天</td>
+        <td><div class="watch-reason">選股分 70<br>散熱零組件+5.56%、主流題材</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/06 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+4.5%</span></div></td>
+        <td><a href="https://histock.tw/stock/3483" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=6962" target="_blank" style="color:var(--blue)">6962</a></td>
+        <td>奕力-KY </td>
+        <td style="font-size:.78rem;color:var(--purple)">半導體</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/05</td>
+        <td class="num" style="color:var(--muted)">30.45</td>
+        <td class="num">31.75</td>
+        <td class="num watch-ret" style="color:var(--red)">+4.27%</td>
+        <td class="num watch-ret" style="color:var(--red)">+1,300</td>
+        <td class="num" style="color:var(--muted)">9天</td>
+        <td><div class="watch-reason">選股分 68<br>法人同買、主流題材、偏熱等拉回+5.73%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">等待法人或族群訊號延續</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#ef4444;font-size:.68rem">今+3.6%</span></div></td>
+        <td><a href="https://histock.tw/stock/6962" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=1476" target="_blank" style="color:var(--blue)">1476</a></td>
+        <td>儒鴻 </td>
+        <td style="font-size:.78rem;color:var(--purple)">紡織纖維</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/06</td>
+        <td class="num" style="color:var(--muted)">312.5</td>
+        <td class="num">386.5</td>
+        <td class="num watch-ret" style="color:var(--red)">+23.68%</td>
+        <td class="num watch-ret" style="color:var(--red)">+74,000</td>
+        <td class="num" style="color:var(--muted)">8天</td>
+        <td><div class="watch-reason">選股分 65<br>法人同買、紡織纖維+1.77%、今日小跌</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#fff8e8;color:#b45309;border:1px solid #f59e0b">分批止盈</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">漲幅夠了但續航訊號變弱</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#ef4444;font-size:.68rem">今+4.7%</span></div></td>
+        <td><a href="https://histock.tw/stock/1476" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=9938" target="_blank" style="color:var(--blue)">9938</a></td>
+        <td>百和 </td>
+        <td style="font-size:.78rem;color:var(--purple)">其他</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/06</td>
+        <td class="num" style="color:var(--muted)">35.45</td>
+        <td class="num">34.8</td>
+        <td class="num watch-ret" style="color:var(--green)">-1.83%</td>
+        <td class="num watch-ret" style="color:var(--green)">-650</td>
+        <td class="num" style="color:var(--muted)">8天</td>
+        <td><div class="watch-reason">選股分 65<br>法人同買、紡織纖維+1.77%、今日小跌</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#fff0f0;color:#dc2626;border:1px solid #fca5a5">汰弱留強</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">持有多日仍沒轉強，資金可換到主流</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+0.9%</span></div></td>
+        <td><a href="https://histock.tw/stock/9938" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2395" target="_blank" style="color:var(--blue)">2395</a></td>
+        <td>研華 </td>
+        <td style="font-size:.78rem;color:var(--purple)">電腦週邊</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/06</td>
+        <td class="num" style="color:var(--muted)">629</td>
+        <td class="num">552</td>
+        <td class="num watch-ret" style="color:var(--green)">-12.24%</td>
+        <td class="num watch-ret" style="color:var(--green)">-77,000</td>
+        <td class="num" style="color:var(--muted)">8天</td>
+        <td><div class="watch-reason">選股分 64<br>法人同買、主流題材</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/07 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#ef4444;font-size:.68rem">今+0.8%</span></div></td>
+        <td><a href="https://histock.tw/stock/2395" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2353" target="_blank" style="color:var(--blue)">2353</a></td>
+        <td>宏碁 </td>
+        <td style="font-size:.78rem;color:var(--purple)">電腦週邊</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/06</td>
+        <td class="num" style="color:var(--muted)">29.45</td>
+        <td class="num">29.6</td>
+        <td class="num watch-ret" style="color:var(--red)">+0.51%</td>
+        <td class="num watch-ret" style="color:var(--red)">+150</td>
+        <td class="num" style="color:var(--muted)">8天</td>
+        <td><div class="watch-reason">選股分 59<br>法人同買、主流題材、今日小跌</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#fff0f0;color:#dc2626;border:1px solid #fca5a5">汰弱留強</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">持有多日仍沒轉強，資金可換到主流</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#22c55e;font-size:.68rem">今-0.3%</span></div></td>
+        <td><a href="https://histock.tw/stock/2353" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=3532" target="_blank" style="color:var(--blue)">3532</a></td>
+        <td>台勝科 </td>
+        <td style="font-size:.78rem;color:var(--purple)">半導體</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/06</td>
+        <td class="num" style="color:var(--muted)">312.5</td>
+        <td class="num">281.5</td>
+        <td class="num watch-ret" style="color:var(--green)">-9.92%</td>
+        <td class="num watch-ret" style="color:var(--green)">-31,000</td>
+        <td class="num" style="color:var(--muted)">8天</td>
+        <td><div class="watch-reason">選股分 59<br>法人同買、主流題材、今日小跌</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/07 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+1.4%</span></div></td>
+        <td><a href="https://histock.tw/stock/3532" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2385" target="_blank" style="color:var(--blue)">2385</a></td>
+        <td>群光 </td>
+        <td style="font-size:.78rem;color:var(--purple)">電子零組件</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/06</td>
+        <td class="num" style="color:var(--muted)">94.2</td>
+        <td class="num">87.3</td>
+        <td class="num watch-ret" style="color:var(--green)">-7.32%</td>
+        <td class="num watch-ret" style="color:var(--green)">-6,900</td>
+        <td class="num" style="color:var(--muted)">8天</td>
+        <td><div class="watch-reason">選股分 59<br>法人同買、主流題材、今日小跌</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/12 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+0.2%</span></div></td>
+        <td><a href="https://histock.tw/stock/2385" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2376" target="_blank" style="color:var(--blue)">2376</a></td>
+        <td>技嘉 </td>
+        <td style="font-size:.78rem;color:var(--purple)">電腦週邊</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/06</td>
+        <td class="num" style="color:var(--muted)">324.5</td>
+        <td class="num">298</td>
+        <td class="num watch-ret" style="color:var(--green)">-8.17%</td>
+        <td class="num watch-ret" style="color:var(--green)">-26,500</td>
+        <td class="num" style="color:var(--muted)">8天</td>
+        <td><div class="watch-reason">選股分 59<br>法人同買、主流題材、今日小跌</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/07 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#22c55e;font-size:.68rem">今-1.9%</span></div></td>
+        <td><a href="https://histock.tw/stock/2376" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=7769" target="_blank" style="color:var(--blue)">7769</a></td>
+        <td>鴻勁 </td>
+        <td style="font-size:.78rem;color:var(--purple)">半導體</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/06</td>
+        <td class="num" style="color:var(--muted)">4365</td>
+        <td class="num">3980</td>
+        <td class="num watch-ret" style="color:var(--green)">-8.82%</td>
+        <td class="num watch-ret" style="color:var(--green)">-385,000</td>
+        <td class="num" style="color:var(--muted)">8天</td>
+        <td><div class="watch-reason">選股分 59<br>法人同買、主流題材、今日小跌</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/07 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#22c55e;font-size:.68rem">今-0.7%</span></div></td>
+        <td><a href="https://histock.tw/stock/7769" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
         <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=6472" target="_blank" style="color:var(--blue)">6472</a></td>
         <td>保瑞 </td>
         <td style="font-size:.78rem;color:var(--purple)">生技醫療</td>
-        <td style="font-size:.78rem;color:var(--muted)">2026/11/08</td>
-        <td class="num" style="color:var(--muted)">399.5</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/07</td>
+        <td class="num" style="color:var(--muted)">389</td>
         <td class="num">402</td>
-        <td class="num watch-ret" style="color:var(--red)">+0.63%</td>
-        <td class="num watch-ret" style="color:var(--red)">+2,500</td>
-        <td class="num" style="color:var(--muted)">6天</td>
-        <td><div class="watch-reason">選股分 84<br>法人同買、生技+1.48%、動能健康+2.7%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">尚未脫離成本區</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+0.3%</span></div></td>
+        <td class="num watch-ret" style="color:var(--red)">+3.34%</td>
+        <td class="num watch-ret" style="color:var(--red)">+13,000</td>
+        <td class="num" style="color:var(--muted)">7天</td>
+        <td><div class="watch-reason">選股分 84<br>法人同買、生技+1.48%、動能健康+4.85%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">等待法人或族群訊號延續</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+0.3%</span></div></td>
         <td><a href="https://histock.tw/stock/6472" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
-        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2468" target="_blank" style="color:var(--blue)">2468</a></td>
-        <td>華經 </td>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2406" target="_blank" style="color:var(--blue)">2406</a></td>
+        <td>國碩 </td>
+        <td style="font-size:.78rem;color:var(--purple)">光電</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/07</td>
+        <td class="num" style="color:var(--muted)">29.3</td>
+        <td class="num">29.05</td>
+        <td class="num watch-ret" style="color:var(--green)">-0.85%</td>
+        <td class="num watch-ret" style="color:var(--green)">-250</td>
+        <td class="num" style="color:var(--muted)">7天</td>
+        <td><div class="watch-reason">選股分 80<br>太陽能+0.69%、主流題材、動能健康+2.45%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#fff0f0;color:#dc2626;border:1px solid #fca5a5">汰弱留強</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">持有多日仍沒轉強，資金可換到主流</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#22c55e;font-size:.68rem">今-1.9%</span></div></td>
+        <td><a href="https://histock.tw/stock/2406" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=6443" target="_blank" style="color:var(--blue)">6443</a></td>
+        <td>元晶 </td>
+        <td style="font-size:.78rem;color:var(--purple)">光電</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/07</td>
+        <td class="num" style="color:var(--muted)">23.6</td>
+        <td class="num">26.55</td>
+        <td class="num watch-ret" style="color:var(--red)">+12.50%</td>
+        <td class="num watch-ret" style="color:var(--red)">+2,950</td>
+        <td class="num" style="color:var(--muted)">7天</td>
+        <td><div class="watch-reason">選股分 78<br>太陽能+0.69%、量價排行強、動能健康+2.83%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#fff8e8;color:#b45309;border:1px solid #f59e0b">守停利</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">保護獲利，不追高加碼</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#22c55e;font-size:.68rem">今-5.2%</span></div></td>
+        <td><a href="https://histock.tw/stock/6443" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=3576" target="_blank" style="color:var(--blue)">3576</a></td>
+        <td>聯合再生 </td>
+        <td style="font-size:.78rem;color:var(--purple)">光電</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/07</td>
+        <td class="num" style="color:var(--muted)">16.4</td>
+        <td class="num">17.1</td>
+        <td class="num watch-ret" style="color:var(--red)">+4.27%</td>
+        <td class="num watch-ret" style="color:var(--red)">+700</td>
+        <td class="num" style="color:var(--muted)">7天</td>
+        <td><div class="watch-reason">選股分 78<br>太陽能+0.69%、量價排行強、動能健康+2.82%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">等待法人或族群訊號延續</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#22c55e;font-size:.68rem">今-1.2%</span></div></td>
+        <td><a href="https://histock.tw/stock/3576" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=9904" target="_blank" style="color:var(--blue)">9904</a></td>
+        <td>寶成 </td>
+        <td style="font-size:.78rem;color:var(--purple)">運動休閒</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/07</td>
+        <td class="num" style="color:var(--muted)">26</td>
+        <td class="num">26</td>
+        <td class="num watch-ret" style="color:var(--muted)">+0.00%</td>
+        <td class="num watch-ret" style="color:var(--muted)">+0</td>
+        <td class="num" style="color:var(--muted)">7天</td>
+        <td><div class="watch-reason">選股分 70<br>法人同買、動能健康+2.16%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">尚未脫離成本區</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#ef4444;font-size:.68rem">今+1.0%</span></div></td>
+        <td><a href="https://histock.tw/stock/9904" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=9910" target="_blank" style="color:var(--blue)">9910</a></td>
+        <td>豐泰 </td>
+        <td style="font-size:.78rem;color:var(--purple)">運動休閒</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/07</td>
+        <td class="num" style="color:var(--muted)">69.2</td>
+        <td class="num">64.7</td>
+        <td class="num watch-ret" style="color:var(--green)">-6.50%</td>
+        <td class="num watch-ret" style="color:var(--green)">-4,500</td>
+        <td class="num" style="color:var(--muted)">7天</td>
+        <td><div class="watch-reason">選股分 70<br>法人同買、動能健康+2.06%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已結案</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/14 汰弱：持有滿 7 天仍跌破 -3% 且未回到 AI 候選，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#ef4444;font-size:.68rem">今+2.8%</span></div></td>
+        <td><a href="https://histock.tw/stock/9910" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=1416" target="_blank" style="color:var(--blue)">1416</a></td>
+        <td>廣豐 </td>
+        <td style="font-size:.78rem;color:var(--purple)">其他</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/07</td>
+        <td class="num" style="color:var(--muted)">14.9</td>
+        <td class="num">18.3</td>
+        <td class="num watch-ret" style="color:var(--red)">+22.82%</td>
+        <td class="num watch-ret" style="color:var(--red)">+3,400</td>
+        <td class="num" style="color:var(--muted)">7天</td>
+        <td><div class="watch-reason">選股分 68<br>量價排行強、動能健康+5.3%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#fff8e8;color:#b45309;border:1px solid #f59e0b">分批止盈</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">漲幅夠了但續航訊號變弱</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#22c55e;font-size:.68rem">今-4.2%</span></div></td>
+        <td><a href="https://histock.tw/stock/1416" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=6620" target="_blank" style="color:var(--blue)">6620</a></td>
+        <td>漢達 </td>
+        <td style="font-size:.78rem;color:var(--purple)">電子工</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/07</td>
+        <td class="num" style="color:var(--muted)">104.5</td>
+        <td class="num">119</td>
+        <td class="num watch-ret" style="color:var(--red)">+13.88%</td>
+        <td class="num watch-ret" style="color:var(--red)">+14,500</td>
+        <td class="num" style="color:var(--muted)">7天</td>
+        <td><div class="watch-reason">選股分 68<br>生技+1.48%、動能健康+3.98%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#fff8e8;color:#b45309;border:1px solid #f59e0b">守停利</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">保護獲利，不追高加碼</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#22c55e;font-size:.68rem">今-3.3%</span></div></td>
+        <td><a href="https://histock.tw/stock/6620" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=6885" target="_blank" style="color:var(--blue)">6885</a></td>
+        <td>全福生技 </td>
+        <td style="font-size:.78rem;color:var(--purple)">生技醫療</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/07</td>
+        <td class="num" style="color:var(--muted)">26.65</td>
+        <td class="num">29.1</td>
+        <td class="num watch-ret" style="color:var(--red)">+9.19%</td>
+        <td class="num watch-ret" style="color:var(--red)">+2,450</td>
+        <td class="num" style="color:var(--muted)">7天</td>
+        <td><div class="watch-reason">選股分 68<br>生技+1.48%、動能健康+4.72%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">等待法人或族群訊號延續</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+1.9%</span></div></td>
+        <td><a href="https://histock.tw/stock/6885" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=6762" target="_blank" style="color:var(--blue)">6762</a></td>
+        <td>達亞 </td>
+        <td style="font-size:.78rem;color:var(--purple)">電子工</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/07</td>
+        <td class="num" style="color:var(--muted)">140</td>
+        <td class="num">149.5</td>
+        <td class="num watch-ret" style="color:var(--red)">+6.79%</td>
+        <td class="num watch-ret" style="color:var(--red)">+9,500</td>
+        <td class="num" style="color:var(--muted)">7天</td>
+        <td><div class="watch-reason">選股分 68<br>生技+1.48%、動能健康+4.48%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">等待法人或族群訊號延續</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#22c55e;font-size:.68rem">今-0.3%</span></div></td>
+        <td><a href="https://histock.tw/stock/6762" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=6873" target="_blank" style="color:var(--blue)">6873</a></td>
+        <td>泓德能源 </td>
+        <td style="font-size:.78rem;color:var(--purple)">電力能源</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/07</td>
+        <td class="num" style="color:var(--muted)">49.5</td>
+        <td class="num">44.45</td>
+        <td class="num watch-ret" style="color:var(--green)">-10.20%</td>
+        <td class="num watch-ret" style="color:var(--green)">-5,050</td>
+        <td class="num" style="color:var(--muted)">7天</td>
+        <td><div class="watch-reason">選股分 64<br>太陽能+0.69%、動能健康+4.76%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/12 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+8.5%</span></div></td>
+        <td><a href="https://histock.tw/stock/6873" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=4174" target="_blank" style="color:var(--blue)">4174</a></td>
+        <td>浩鼎 </td>
+        <td style="font-size:.78rem;color:var(--purple)">其他</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/07</td>
+        <td class="num" style="color:var(--muted)">48.55</td>
+        <td class="num">64.9</td>
+        <td class="num watch-ret" style="color:var(--red)">+33.68%</td>
+        <td class="num watch-ret" style="color:var(--red)">+16,350</td>
+        <td class="num" style="color:var(--muted)">7天</td>
+        <td><div class="watch-reason">選股分 62<br>概念股_新藥研發+5.99%、動能健康+3.41%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#fff8e8;color:#b45309;border:1px solid #f59e0b">分批落袋</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">獲利已高，訊號不夠強就先收一段</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span></div></td>
+        <td><a href="https://histock.tw/stock/4174" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=6541" target="_blank" style="color:var(--blue)">6541</a></td>
+        <td>泰福-KY </td>
+        <td style="font-size:.78rem;color:var(--purple)">生技醫療</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/07</td>
+        <td class="num" style="color:var(--muted)">27.85</td>
+        <td class="num">28.1</td>
+        <td class="num watch-ret" style="color:var(--red)">+0.90%</td>
+        <td class="num watch-ret" style="color:var(--red)">+250</td>
+        <td class="num" style="color:var(--muted)">7天</td>
+        <td><div class="watch-reason">選股分 62<br>概念股_新藥研發+5.99%、動能健康+3.53%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#fff0f0;color:#dc2626;border:1px solid #fca5a5">汰弱留強</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">持有多日仍沒轉強，資金可換到主流</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+0.2%</span></div></td>
+        <td><a href="https://histock.tw/stock/6541" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2480" target="_blank" style="color:var(--blue)">2480</a></td>
+        <td>敦陽科 </td>
         <td style="font-size:.78rem;color:var(--purple)">資訊服務</td>
-        <td style="font-size:.78rem;color:var(--muted)">2026/11/08</td>
-        <td class="num" style="color:var(--muted)">60.2</td>
-        <td class="num">74.2</td>
-        <td class="num watch-ret" style="color:var(--red)">+23.26%</td>
-        <td class="num watch-ret" style="color:var(--red)">+14,000</td>
-        <td class="num" style="color:var(--muted)">6天</td>
-        <td><div class="watch-reason">選股分 76<br>概念股_資訊安全+2.78%、主流題材、動能健康+2.03%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#fff8e8;color:#b45309;border:1px solid #f59e0b">分批止盈</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">漲幅夠了但續航訊號變弱</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+9.9%</span></div></td>
-        <td><a href="https://histock.tw/stock/2468" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/07</td>
+        <td class="num" style="color:var(--muted)">166</td>
+        <td class="num">193.5</td>
+        <td class="num watch-ret" style="color:var(--red)">+16.57%</td>
+        <td class="num watch-ret" style="color:var(--red)">+27,500</td>
+        <td class="num" style="color:var(--muted)">7天</td>
+        <td><div class="watch-reason">選股分 62<br>概念股_資訊安全+2.78%、主流題材</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#fff8e8;color:#b45309;border:1px solid #f59e0b">分批止盈</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">漲幅夠了但續航訊號變弱</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#ef4444;font-size:.68rem">今+2.6%</span></div></td>
+        <td><a href="https://histock.tw/stock/2480" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
         <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=6890" target="_blank" style="color:var(--blue)">6890</a></td>
         <td>來億-KY </td>
@@ -1582,71 +2176,6 @@ tr:hover td{background:#e9f1fb}
         <td><div class="watch-reason">選股分 70<br>法人同買、動能健康+2.8%</div></td>
         <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">等待法人或族群訊號延續</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#ef4444;font-size:.68rem">今+9.9%</span></div></td>
         <td><a href="https://histock.tw/stock/6890" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
-      </tr><tr>
-        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=6620" target="_blank" style="color:var(--blue)">6620</a></td>
-        <td>漢達 </td>
-        <td style="font-size:.78rem;color:var(--purple)">電子工</td>
-        <td style="font-size:.78rem;color:var(--muted)">2026/11/08</td>
-        <td class="num" style="color:var(--muted)">104.5</td>
-        <td class="num">119</td>
-        <td class="num watch-ret" style="color:var(--red)">+13.88%</td>
-        <td class="num watch-ret" style="color:var(--red)">+14,500</td>
-        <td class="num" style="color:var(--muted)">6天</td>
-        <td><div class="watch-reason">選股分 68<br>生技+1.48%、動能健康+3.98%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#fff8e8;color:#b45309;border:1px solid #f59e0b">守停利</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">保護獲利，不追高加碼</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#22c55e;font-size:.68rem">今-3.3%</span></div></td>
-        <td><a href="https://histock.tw/stock/6620" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
-      </tr><tr>
-        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=6885" target="_blank" style="color:var(--blue)">6885</a></td>
-        <td>全福生技 </td>
-        <td style="font-size:.78rem;color:var(--purple)">生技醫療</td>
-        <td style="font-size:.78rem;color:var(--muted)">2026/11/08</td>
-        <td class="num" style="color:var(--muted)">26.65</td>
-        <td class="num">29.1</td>
-        <td class="num watch-ret" style="color:var(--red)">+9.19%</td>
-        <td class="num watch-ret" style="color:var(--red)">+2,450</td>
-        <td class="num" style="color:var(--muted)">6天</td>
-        <td><div class="watch-reason">選股分 68<br>生技+1.48%、動能健康+4.72%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">等待法人或族群訊號延續</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+1.9%</span></div></td>
-        <td><a href="https://histock.tw/stock/6885" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
-      </tr><tr>
-        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=6762" target="_blank" style="color:var(--blue)">6762</a></td>
-        <td>達亞 </td>
-        <td style="font-size:.78rem;color:var(--purple)">電子工</td>
-        <td style="font-size:.78rem;color:var(--muted)">2026/11/08</td>
-        <td class="num" style="color:var(--muted)">140</td>
-        <td class="num">149.5</td>
-        <td class="num watch-ret" style="color:var(--red)">+6.79%</td>
-        <td class="num watch-ret" style="color:var(--red)">+9,500</td>
-        <td class="num" style="color:var(--muted)">6天</td>
-        <td><div class="watch-reason">選股分 68<br>生技+1.48%、動能健康+4.48%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">等待法人或族群訊號延續</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#22c55e;font-size:.68rem">今-0.3%</span></div></td>
-        <td><a href="https://histock.tw/stock/6762" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
-      </tr><tr>
-        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=6873" target="_blank" style="color:var(--blue)">6873</a></td>
-        <td>泓德能源 </td>
-        <td style="font-size:.78rem;color:var(--purple)">電力能源</td>
-        <td style="font-size:.78rem;color:var(--muted)">2026/11/08</td>
-        <td class="num" style="color:var(--muted)">49.5</td>
-        <td class="num">44.45</td>
-        <td class="num watch-ret" style="color:var(--green)">-10.20%</td>
-        <td class="num watch-ret" style="color:var(--green)">-5,050</td>
-        <td class="num" style="color:var(--muted)">6天</td>
-        <td><div class="watch-reason">選股分 64<br>太陽能+0.69%、動能健康+4.76%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/12 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+8.5%</span></div></td>
-        <td><a href="https://histock.tw/stock/6873" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
-      </tr><tr>
-        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=4174" target="_blank" style="color:var(--blue)">4174</a></td>
-        <td>浩鼎 </td>
-        <td style="font-size:.78rem;color:var(--purple)">其他</td>
-        <td style="font-size:.78rem;color:var(--muted)">2026/11/08</td>
-        <td class="num" style="color:var(--muted)">48.55</td>
-        <td class="num">64.9</td>
-        <td class="num watch-ret" style="color:var(--red)">+33.68%</td>
-        <td class="num watch-ret" style="color:var(--red)">+16,350</td>
-        <td class="num" style="color:var(--muted)">6天</td>
-        <td><div class="watch-reason">選股分 62<br>概念股_新藥研發+5.99%、動能健康+3.41%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#fff8e8;color:#b45309;border:1px solid #f59e0b">分批落袋</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">獲利已高，訊號不夠強就先收一段</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span></div></td>
-        <td><a href="https://histock.tw/stock/4174" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
         <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=3014" target="_blank" style="color:var(--blue)">3014</a></td>
         <td>聯陽 </td>
@@ -1713,19 +2242,6 @@ tr:hover td{background:#e9f1fb}
         <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">尚未脫離成本區</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+1.2%</span></div></td>
         <td><a href="https://histock.tw/stock/3002" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
-        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=6962" target="_blank" style="color:var(--blue)">6962</a></td>
-        <td>奕力-KY </td>
-        <td style="font-size:.78rem;color:var(--purple)">半導體</td>
-        <td style="font-size:.78rem;color:var(--muted)">2026/11/10</td>
-        <td class="num" style="color:var(--muted)">30.2</td>
-        <td class="num">31.75</td>
-        <td class="num watch-ret" style="color:var(--red)">+5.13%</td>
-        <td class="num watch-ret" style="color:var(--red)">+1,550</td>
-        <td class="num" style="color:var(--muted)">4天</td>
-        <td><div class="watch-reason">選股分 78<br>法人同買、主流題材、動能健康+3.25%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">等待法人或族群訊號延續</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#ef4444;font-size:.68rem">今+3.6%</span></div></td>
-        <td><a href="https://histock.tw/stock/6962" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
-      </tr><tr>
         <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2352" target="_blank" style="color:var(--blue)">2352</a></td>
         <td>佳世達 </td>
         <td style="font-size:.78rem;color:var(--purple)">電腦週邊</td>
@@ -1778,67 +2294,67 @@ tr:hover td{background:#e9f1fb}
         <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">尚未脫離成本區</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#22c55e;font-size:.68rem">今-0.5%</span></div></td>
         <td><a href="https://histock.tw/stock/7768" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
-        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=3661" target="_blank" style="color:var(--blue)">3661</a></td>
-        <td>世芯-KY </td>
-        <td style="font-size:.78rem;color:var(--purple)">半導體</td>
-        <td style="font-size:.78rem;color:var(--muted)">2026/11/12</td>
-        <td class="num" style="color:var(--muted)">3650</td>
-        <td class="num">4020</td>
-        <td class="num watch-ret" style="color:var(--red)">+10.14%</td>
-        <td class="num watch-ret" style="color:var(--red)">+370,000</td>
-        <td class="num" style="color:var(--muted)">2天</td>
-        <td><div class="watch-reason">選股分 88<br>法人同買、IP/ASIC+8.2%、主流題材、偏熱等拉回+6.73%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#f0fdf4;color:#15803d;border:1px solid #86efac">續抱</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">仍在強勢條件內</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#7c3aed;font-size:.68rem">主流:IP/ASIC</span><span style="color:#ef4444;font-size:.68rem">今+9.4%</span></div></td>
-        <td><a href="https://histock.tw/stock/3661" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
-      </tr><tr>
         <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=3529" target="_blank" style="color:var(--blue)">3529</a></td>
         <td>力旺 </td>
         <td style="font-size:.78rem;color:var(--purple)">其他電子</td>
-        <td style="font-size:.78rem;color:var(--muted)">2026/11/12</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/11</td>
         <td class="num" style="color:var(--muted)">2265</td>
         <td class="num">2340</td>
         <td class="num watch-ret" style="color:var(--red)">+3.31%</td>
         <td class="num watch-ret" style="color:var(--red)">+75,000</td>
-        <td class="num" style="color:var(--muted)">2天</td>
+        <td class="num" style="color:var(--muted)">3天</td>
         <td><div class="watch-reason">選股分 82<br>IP/ASIC+8.2%、主流題材、動能健康+2.26%</div></td>
         <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">等待法人或族群訊號延續</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#7c3aed;font-size:.68rem">主流:IP/ASIC</span><span style="color:#ef4444;font-size:.68rem">今+6.1%</span></div></td>
         <td><a href="https://histock.tw/stock/3529" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
-        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=3035" target="_blank" style="color:var(--blue)">3035</a></td>
-        <td>智原 </td>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=7749" target="_blank" style="color:var(--blue)">7749</a></td>
+        <td>意騰-KY </td>
         <td style="font-size:.78rem;color:var(--purple)">半導體</td>
-        <td style="font-size:.78rem;color:var(--muted)">2026/11/12</td>
-        <td class="num" style="color:var(--muted)">184</td>
-        <td class="num">196</td>
-        <td class="num watch-ret" style="color:var(--red)">+6.52%</td>
-        <td class="num watch-ret" style="color:var(--red)">+12,000</td>
-        <td class="num" style="color:var(--muted)">2天</td>
-        <td><div class="watch-reason">選股分 82<br>IP/ASIC+8.2%、主流題材、動能健康+5.44%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#f0fdf4;color:#15803d;border:1px solid #86efac">續抱觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">小獲利且訊號偏多</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#7c3aed;font-size:.68rem">主流:IP/ASIC</span><span style="color:#ef4444;font-size:.68rem">今+9.8%</span></div></td>
-        <td><a href="https://histock.tw/stock/3035" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/11</td>
+        <td class="num" style="color:var(--muted)">262.5</td>
+        <td class="num">282</td>
+        <td class="num watch-ret" style="color:var(--red)">+7.43%</td>
+        <td class="num watch-ret" style="color:var(--red)">+19,500</td>
+        <td class="num" style="color:var(--muted)">3天</td>
+        <td><div class="watch-reason">選股分 82<br>IP/ASIC+8.2%、主流題材、動能健康+2.34%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">等待法人或族群訊號延續</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#7c3aed;font-size:.68rem">主流:IP/ASIC</span><span style="color:#ef4444;font-size:.68rem">今+9.9%</span></div></td>
+        <td><a href="https://histock.tw/stock/7749" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
         <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=6533" target="_blank" style="color:var(--blue)">6533</a></td>
         <td>晶心科 </td>
         <td style="font-size:.78rem;color:var(--purple)">半導體</td>
-        <td style="font-size:.78rem;color:var(--muted)">2026/11/12</td>
-        <td class="num" style="color:var(--muted)">234</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/11</td>
+        <td class="num" style="color:var(--muted)">226</td>
         <td class="num">249.5</td>
-        <td class="num watch-ret" style="color:var(--red)">+6.62%</td>
-        <td class="num watch-ret" style="color:var(--red)">+15,500</td>
-        <td class="num" style="color:var(--muted)">2天</td>
-        <td><div class="watch-reason">選股分 82<br>IP/ASIC+8.2%、主流題材、動能健康+3.54%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#f0fdf4;color:#15803d;border:1px solid #86efac">續抱觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">小獲利且訊號偏多</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#7c3aed;font-size:.68rem">主流:IP/ASIC</span><span style="color:#ef4444;font-size:.68rem">今+9.9%</span></div></td>
+        <td class="num watch-ret" style="color:var(--red)">+10.40%</td>
+        <td class="num watch-ret" style="color:var(--red)">+23,500</td>
+        <td class="num" style="color:var(--muted)">3天</td>
+        <td><div class="watch-reason">選股分 82<br>IP/ASIC+8.2%、主流題材、動能健康+4.15%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#f0fdf4;color:#15803d;border:1px solid #86efac">續抱</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">仍在強勢條件內</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#7c3aed;font-size:.68rem">主流:IP/ASIC</span><span style="color:#ef4444;font-size:.68rem">今+9.9%</span></div></td>
         <td><a href="https://histock.tw/stock/6533" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=3653" target="_blank" style="color:var(--blue)">3653</a></td>
+        <td>健策 </td>
+        <td style="font-size:.78rem;color:var(--purple)">電子零組件</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/11</td>
+        <td class="num" style="color:var(--muted)">5790</td>
+        <td class="num">5345</td>
+        <td class="num watch-ret" style="color:var(--green)">-7.69%</td>
+        <td class="num watch-ret" style="color:var(--green)">-445,000</td>
+        <td class="num" style="color:var(--muted)">3天</td>
+        <td><div class="watch-reason">選股分 80<br>散熱零組件+7.88%、主流題材、動能健康+2.75%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/14 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#22c55e;font-size:.68rem">今-4.6%</span></div></td>
+        <td><a href="https://histock.tw/stock/3653" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
         <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=3324" target="_blank" style="color:var(--blue)">3324</a></td>
         <td>雙鴻 </td>
         <td style="font-size:.78rem;color:var(--purple)">通信網路</td>
-        <td style="font-size:.78rem;color:var(--muted)">2026/11/12</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/11</td>
         <td class="num" style="color:var(--muted)">1300</td>
         <td class="num">1170</td>
         <td class="num watch-ret" style="color:var(--green)">-10.00%</td>
         <td class="num watch-ret" style="color:var(--green)">-130,000</td>
-        <td class="num" style="color:var(--muted)">2天</td>
+        <td class="num" style="color:var(--muted)">3天</td>
         <td><div class="watch-reason">選股分 80<br>散熱零組件+7.88%、主流題材、動能健康+5.26%</div></td>
         <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/13 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#22c55e;font-size:.68rem">今-2.6%</span></div></td>
         <td><a href="https://histock.tw/stock/3324" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
@@ -1846,15 +2362,67 @@ tr:hover td{background:#e9f1fb}
         <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=6831" target="_blank" style="color:var(--blue)">6831</a></td>
         <td>邁科 </td>
         <td style="font-size:.78rem;color:var(--purple)">電腦週邊</td>
-        <td style="font-size:.78rem;color:var(--muted)">2026/11/12</td>
-        <td class="num" style="color:var(--muted)">319</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/11</td>
+        <td class="num" style="color:var(--muted)">308</td>
         <td class="num">323</td>
-        <td class="num watch-ret" style="color:var(--red)">+1.25%</td>
-        <td class="num watch-ret" style="color:var(--red)">+4,000</td>
-        <td class="num" style="color:var(--muted)">2天</td>
-        <td><div class="watch-reason">選股分 80<br>散熱零組件+7.88%、主流題材、動能健康+3.57%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">尚未脫離成本區</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+3.4%</span></div></td>
+        <td class="num watch-ret" style="color:var(--red)">+4.87%</td>
+        <td class="num watch-ret" style="color:var(--red)">+15,000</td>
+        <td class="num" style="color:var(--muted)">3天</td>
+        <td><div class="watch-reason">選股分 80<br>散熱零組件+7.88%、主流題材、動能健康+4.23%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">等待法人或族群訊號延續</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+3.4%</span></div></td>
         <td><a href="https://histock.tw/stock/6831" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2421" target="_blank" style="color:var(--blue)">2421</a></td>
+        <td>建準 </td>
+        <td style="font-size:.78rem;color:var(--purple)">電子零組件</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/11</td>
+        <td class="num" style="color:var(--muted)">137.5</td>
+        <td class="num">134</td>
+        <td class="num watch-ret" style="color:var(--green)">-2.55%</td>
+        <td class="num watch-ret" style="color:var(--green)">-3,500</td>
+        <td class="num" style="color:var(--muted)">3天</td>
+        <td><div class="watch-reason">選股分 80<br>散熱零組件+7.88%、主流題材、動能健康+4.56%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">尚未脫離成本區</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+2.3%</span></div></td>
+        <td><a href="https://histock.tw/stock/2421" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2303" target="_blank" style="color:var(--blue)">2303</a></td>
+        <td>聯電 </td>
+        <td style="font-size:.78rem;color:var(--purple)">半導體</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/11</td>
+        <td class="num" style="color:var(--muted)">100.5</td>
+        <td class="num">101.5</td>
+        <td class="num watch-ret" style="color:var(--red)">+1.00%</td>
+        <td class="num watch-ret" style="color:var(--red)">+1,000</td>
+        <td class="num" style="color:var(--muted)">3天</td>
+        <td><div class="watch-reason">選股分 78<br>法人同買、主流題材、動能健康+3.93%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">尚未脫離成本區</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+0.5%</span></div></td>
+        <td><a href="https://histock.tw/stock/2303" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2330" target="_blank" style="color:var(--blue)">2330</a></td>
+        <td>台積電 </td>
+        <td style="font-size:.78rem;color:var(--purple)">半導體</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/11</td>
+        <td class="num" style="color:var(--muted)">2285</td>
+        <td class="num">2350</td>
+        <td class="num watch-ret" style="color:var(--red)">+2.84%</td>
+        <td class="num watch-ret" style="color:var(--red)">+65,000</td>
+        <td class="num" style="color:var(--muted)">3天</td>
+        <td><div class="watch-reason">選股分 78<br>法人同買、主流題材、動能健康+2.24%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">尚未脫離成本區</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+0.4%</span></div></td>
+        <td><a href="https://histock.tw/stock/2330" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=6239" target="_blank" style="color:var(--blue)">6239</a></td>
+        <td>力成 </td>
+        <td style="font-size:.78rem;color:var(--purple)">半導體</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/11</td>
+        <td class="num" style="color:var(--muted)">230</td>
+        <td class="num">251.5</td>
+        <td class="num watch-ret" style="color:var(--red)">+9.35%</td>
+        <td class="num watch-ret" style="color:var(--red)">+21,500</td>
+        <td class="num" style="color:var(--muted)">3天</td>
+        <td><div class="watch-reason">選股分 78<br>法人同買、主流題材、動能健康+2.91%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">等待法人或族群訊號延續</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#ef4444;font-size:.68rem">今+4.6%</span></div></td>
+        <td><a href="https://histock.tw/stock/6239" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
         <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2409" target="_blank" style="color:var(--blue)">2409</a></td>
         <td>友達 </td>
@@ -1869,57 +2437,187 @@ tr:hover td{background:#e9f1fb}
         <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">等待法人或族群訊號延續</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+4.1%</span></div></td>
         <td><a href="https://histock.tw/stock/2409" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
-        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2303" target="_blank" style="color:var(--blue)">2303</a></td>
-        <td>聯電 </td>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2464" target="_blank" style="color:var(--blue)">2464</a></td>
+        <td>盟立 </td>
+        <td style="font-size:.78rem;color:var(--purple)">其他電子</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/12</td>
+        <td class="num" style="color:var(--muted)">163</td>
+        <td class="num">159.5</td>
+        <td class="num watch-ret" style="color:var(--green)">-2.15%</td>
+        <td class="num watch-ret" style="color:var(--green)">-3,500</td>
+        <td class="num" style="color:var(--muted)">2天</td>
+        <td><div class="watch-reason">選股分 78<br>法人同買、主流題材、動能健康+4.49%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">尚未脫離成本區</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#ef4444;font-size:.68rem">今+3.2%</span></div></td>
+        <td><a href="https://histock.tw/stock/2464" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2441" target="_blank" style="color:var(--blue)">2441</a></td>
+        <td>超豐 </td>
         <td style="font-size:.78rem;color:var(--purple)">半導體</td>
         <td style="font-size:.78rem;color:var(--muted)">2026/11/12</td>
-        <td class="num" style="color:var(--muted)">104</td>
-        <td class="num">101.5</td>
-        <td class="num watch-ret" style="color:var(--green)">-2.40%</td>
+        <td class="num" style="color:var(--muted)">112.5</td>
+        <td class="num">110</td>
+        <td class="num watch-ret" style="color:var(--green)">-2.22%</td>
         <td class="num watch-ret" style="color:var(--green)">-2,500</td>
         <td class="num" style="color:var(--muted)">2天</td>
-        <td><div class="watch-reason">選股分 78<br>法人同買、主流題材、動能健康+3.48%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">尚未脫離成本區</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+0.5%</span></div></td>
-        <td><a href="https://histock.tw/stock/2303" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+        <td><div class="watch-reason">選股分 78<br>法人同買、主流題材、動能健康+3.69%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">尚未脫離成本區</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+1.9%</span></div></td>
+        <td><a href="https://histock.tw/stock/2441" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
-        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2330" target="_blank" style="color:var(--blue)">2330</a></td>
-        <td>台積電 </td>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2493" target="_blank" style="color:var(--blue)">2493</a></td>
+        <td>揚博 </td>
+        <td style="font-size:.78rem;color:var(--purple)">電子零組件</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/12</td>
+        <td class="num" style="color:var(--muted)">160.5</td>
+        <td class="num">159.5</td>
+        <td class="num watch-ret" style="color:var(--green)">-0.62%</td>
+        <td class="num watch-ret" style="color:var(--green)">-1,000</td>
+        <td class="num" style="color:var(--muted)">2天</td>
+        <td><div class="watch-reason">選股分 78<br>法人同買、主流題材、動能健康+4.56%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">尚未脫離成本區</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+6.7%</span></div></td>
+        <td><a href="https://histock.tw/stock/2493" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=4919" target="_blank" style="color:var(--blue)">4919</a></td>
+        <td>新唐 <span class="watch-tag">⭐今日雙訊</span></td>
         <td style="font-size:.78rem;color:var(--purple)">半導體</td>
         <td style="font-size:.78rem;color:var(--muted)">2026/11/12</td>
-        <td class="num" style="color:var(--muted)">2395</td>
-        <td class="num">2350</td>
-        <td class="num watch-ret" style="color:var(--green)">-1.88%</td>
-        <td class="num watch-ret" style="color:var(--green)">-45,000</td>
+        <td class="num" style="color:var(--muted)">107</td>
+        <td class="num">106.5</td>
+        <td class="num watch-ret" style="color:var(--green)">-0.47%</td>
+        <td class="num watch-ret" style="color:var(--green)">-500</td>
         <td class="num" style="color:var(--muted)">2天</td>
-        <td><div class="watch-reason">選股分 78<br>法人同買、主流題材、動能健康+4.81%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">尚未脫離成本區</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+0.4%</span></div></td>
-        <td><a href="https://histock.tw/stock/2330" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+        <td><div class="watch-reason">選股分 78<br>法人同買、主流題材、動能健康+3.38%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">續抱觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">仍有多方訊號，先看一到兩天</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#7c3aed;font-size:.68rem">主流:IC-設計</span><span style="color:#ef4444;font-size:.68rem">今+3.9%</span><span style="color:#ef4444;font-size:.68rem">外資+268</span><span style="color:#ef4444;font-size:.68rem">投信+82</span></div></td>
+        <td><a href="https://histock.tw/stock/4919" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
-        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=6239" target="_blank" style="color:var(--blue)">6239</a></td>
-        <td>力成 </td>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=6789" target="_blank" style="color:var(--blue)">6789</a></td>
+        <td>采鈺 </td>
         <td style="font-size:.78rem;color:var(--purple)">半導體</td>
         <td style="font-size:.78rem;color:var(--muted)">2026/11/12</td>
-        <td class="num" style="color:var(--muted)">242</td>
-        <td class="num">251.5</td>
-        <td class="num watch-ret" style="color:var(--red)">+3.93%</td>
-        <td class="num watch-ret" style="color:var(--red)">+9,500</td>
+        <td class="num" style="color:var(--muted)">394.5</td>
+        <td class="num">400.5</td>
+        <td class="num watch-ret" style="color:var(--red)">+1.52%</td>
+        <td class="num watch-ret" style="color:var(--red)">+6,000</td>
         <td class="num" style="color:var(--muted)">2天</td>
-        <td><div class="watch-reason">選股分 78<br>法人同買、主流題材、動能健康+5.22%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">等待法人或族群訊號延續</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#ef4444;font-size:.68rem">今+4.6%</span></div></td>
-        <td><a href="https://histock.tw/stock/6239" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+        <td><div class="watch-reason">選股分 78<br>法人同買、主流題材、動能健康+4.37%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">尚未脫離成本區</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+5.1%</span></div></td>
+        <td><a href="https://histock.tw/stock/6789" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2476" target="_blank" style="color:var(--blue)">2476</a></td>
+        <td>鉅祥 </td>
+        <td style="font-size:.78rem;color:var(--purple)">電子零組件</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/12</td>
+        <td class="num" style="color:var(--muted)">99.3</td>
+        <td class="num">106.5</td>
+        <td class="num watch-ret" style="color:var(--red)">+7.25%</td>
+        <td class="num watch-ret" style="color:var(--red)">+7,200</td>
+        <td class="num" style="color:var(--muted)">2天</td>
+        <td><div class="watch-reason">選股分 78<br>法人同買、主流題材、動能健康+3.98%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">等待法人或族群訊號延續</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+9.8%</span></div></td>
+        <td><a href="https://histock.tw/stock/2476" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2408" target="_blank" style="color:var(--blue)">2408</a></td>
+        <td>南亞科 </td>
+        <td style="font-size:.78rem;color:var(--purple)">半導體</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/13</td>
+        <td class="num" style="color:var(--muted)">394</td>
+        <td class="num">377</td>
+        <td class="num watch-ret" style="color:var(--green)">-4.31%</td>
+        <td class="num watch-ret" style="color:var(--green)">-17,000</td>
+        <td class="num" style="color:var(--muted)">1天</td>
+        <td><div class="watch-reason">選股分 78<br>法人同買、主流題材、動能健康+2.87%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">停損候選</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">跌破容忍區且支撐訊號不足</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#22c55e;font-size:.68rem">今-0.7%</span></div></td>
+        <td><a href="https://histock.tw/stock/2408" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2355" target="_blank" style="color:var(--blue)">2355</a></td>
+        <td>敬鵬 </td>
+        <td style="font-size:.78rem;color:var(--purple)">電子零組件</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/13</td>
+        <td class="num" style="color:var(--muted)">55.2</td>
+        <td class="num">65.9</td>
+        <td class="num watch-ret" style="color:var(--red)">+19.38%</td>
+        <td class="num watch-ret" style="color:var(--red)">+10,700</td>
+        <td class="num" style="color:var(--muted)">1天</td>
+        <td><div class="watch-reason">選股分 76<br>主流題材、量價排行強、動能健康+5.14%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#fff8e8;color:#b45309;border:1px solid #f59e0b">分批止盈</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">漲幅夠了但續航訊號變弱</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+8.6%</span></div></td>
+        <td><a href="https://histock.tw/stock/2355" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=3617" target="_blank" style="color:var(--blue)">3617</a></td>
+        <td>碩天 </td>
+        <td style="font-size:.78rem;color:var(--purple)">其他電子</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/13</td>
+        <td class="num" style="color:var(--muted)">267.5</td>
+        <td class="num">279</td>
+        <td class="num watch-ret" style="color:var(--red)">+4.30%</td>
+        <td class="num watch-ret" style="color:var(--red)">+11,500</td>
+        <td class="num" style="color:var(--muted)">1天</td>
+        <td><div class="watch-reason">選股分 70<br>法人同買、動能健康+4.09%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">等待法人或族群訊號延續</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+3.9%</span></div></td>
+        <td><a href="https://histock.tw/stock/3617" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=8070" target="_blank" style="color:var(--blue)">8070</a></td>
+        <td>長華* </td>
+        <td style="font-size:.78rem;color:var(--purple)">電子通路</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/13</td>
+        <td class="num" style="color:var(--muted)">48</td>
+        <td class="num">48.8</td>
+        <td class="num watch-ret" style="color:var(--red)">+1.67%</td>
+        <td class="num watch-ret" style="color:var(--red)">+800</td>
+        <td class="num" style="color:var(--muted)">1天</td>
+        <td><div class="watch-reason">選股分 70<br>法人同買、動能健康+3.11%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">尚未脫離成本區</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+3.0%</span></div></td>
+        <td><a href="https://histock.tw/stock/8070" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=9935" target="_blank" style="color:var(--blue)">9935</a></td>
+        <td>慶豐富 </td>
+        <td style="font-size:.78rem;color:var(--purple)">其他</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/13</td>
+        <td class="num" style="color:var(--muted)">19.35</td>
+        <td class="num">20.2</td>
+        <td class="num watch-ret" style="color:var(--red)">+4.39%</td>
+        <td class="num watch-ret" style="color:var(--red)">+850</td>
+        <td class="num" style="color:var(--muted)">1天</td>
+        <td><div class="watch-reason">選股分 70<br>法人同買、動能健康+3.48%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">等待法人或族群訊號延續</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#ef4444;font-size:.68rem">今+1.8%</span></div></td>
+        <td><a href="https://histock.tw/stock/9935" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=6214" target="_blank" style="color:var(--blue)">6214</a></td>
+        <td>精誠 </td>
+        <td style="font-size:.78rem;color:var(--purple)">資訊服務</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/13</td>
+        <td class="num" style="color:var(--muted)">193.5</td>
+        <td class="num">179</td>
+        <td class="num watch-ret" style="color:var(--green)">-7.49%</td>
+        <td class="num watch-ret" style="color:var(--green)">-14,500</td>
+        <td class="num" style="color:var(--muted)">1天</td>
+        <td><div class="watch-reason">選股分 70<br>法人同買、動能健康+4.88%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#ffe4e6;color:#be123c;border:1px solid #f43f5e">已停損</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">2026/11/14 停損：虧損超過 7%，績效固定在結案價</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#22c55e;font-size:.68rem">今-5.5%</span></div></td>
+        <td><a href="https://histock.tw/stock/6214" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
         <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=1802" target="_blank" style="color:var(--blue)">1802</a></td>
         <td>台玻 </td>
         <td style="font-size:.78rem;color:var(--purple)">玻璃陶瓷</td>
         <td style="font-size:.78rem;color:var(--muted)">2026/11/13</td>
-        <td class="num" style="color:var(--muted)">81.7</td>
+        <td class="num" style="color:var(--muted)">76.7</td>
         <td class="num">85.1</td>
-        <td class="num watch-ret" style="color:var(--red)">+4.16%</td>
-        <td class="num watch-ret" style="color:var(--red)">+3,400</td>
+        <td class="num watch-ret" style="color:var(--red)">+10.95%</td>
+        <td class="num watch-ret" style="color:var(--red)">+8,400</td>
         <td class="num" style="color:var(--muted)">1天</td>
-        <td><div class="watch-reason">選股分 88<br>法人同買、玻璃陶瓷+5.97%、量價排行強、偏熱等拉回+6.52%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">等待法人或族群訊號延續</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+4.2%</span></div></td>
+        <td><div class="watch-reason">選股分 68<br>法人同買、玻璃陶瓷+5.97%、量價排行強、漲停附近不追高</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#fff8e8;color:#b45309;border:1px solid #f59e0b">守停利</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">保護獲利，不追高加碼</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+4.2%</span></div></td>
         <td><a href="https://histock.tw/stock/1802" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=3661" target="_blank" style="color:var(--blue)">3661</a></td>
+        <td>世芯-KY </td>
+        <td style="font-size:.78rem;color:var(--purple)">半導體</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/13</td>
+        <td class="num" style="color:var(--muted)">3650</td>
+        <td class="num">4020</td>
+        <td class="num watch-ret" style="color:var(--red)">+10.14%</td>
+        <td class="num watch-ret" style="color:var(--red)">+370,000</td>
+        <td class="num" style="color:var(--muted)">1天</td>
+        <td><div class="watch-reason">選股分 68<br>法人同買、主流題材、偏熱等拉回+6.73%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#f0fdf4;color:#15803d;border:1px solid #86efac">續抱</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">仍在強勢條件內</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#7c3aed;font-size:.68rem">主流:IP/ASIC</span><span style="color:#ef4444;font-size:.68rem">今+9.4%</span></div></td>
+        <td><a href="https://histock.tw/stock/3661" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
         <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2385" target="_blank" style="color:var(--blue)">2385</a></td>
         <td>群光 </td>
@@ -1934,70 +2632,96 @@ tr:hover td{background:#e9f1fb}
         <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">尚未脫離成本區</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+0.2%</span></div></td>
         <td><a href="https://histock.tw/stock/2385" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
-        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2480" target="_blank" style="color:var(--blue)">2480</a></td>
-        <td>敦陽科 </td>
-        <td style="font-size:.78rem;color:var(--purple)">資訊服務</td>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2360" target="_blank" style="color:var(--blue)">2360</a></td>
+        <td>致茂 </td>
+        <td style="font-size:.78rem;color:var(--purple)">其他電子</td>
         <td style="font-size:.78rem;color:var(--muted)">2026/11/13</td>
-        <td class="num" style="color:var(--muted)">188.5</td>
-        <td class="num">193.5</td>
-        <td class="num watch-ret" style="color:var(--red)">+2.65%</td>
-        <td class="num watch-ret" style="color:var(--red)">+5,000</td>
+        <td class="num" style="color:var(--muted)">1420</td>
+        <td class="num">1400</td>
+        <td class="num watch-ret" style="color:var(--green)">-1.41%</td>
+        <td class="num watch-ret" style="color:var(--green)">-20,000</td>
         <td class="num" style="color:var(--muted)">1天</td>
-        <td><div class="watch-reason">選股分 78<br>法人同買、主流題材、動能健康+4.14%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">尚未脫離成本區</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#ef4444;font-size:.68rem">今+2.6%</span></div></td>
-        <td><a href="https://histock.tw/stock/2480" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+        <td><div class="watch-reason">選股分 76<br>概念股_機器視覺/AOI+2.48%、主流題材、動能健康+3.65%</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">尚未脫離成本區</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#22c55e;font-size:.68rem">今-1.4%</span></div></td>
+        <td><a href="https://histock.tw/stock/2360" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
-        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=1476" target="_blank" style="color:var(--blue)">1476</a></td>
-        <td>儒鴻 </td>
-        <td style="font-size:.78rem;color:var(--purple)">紡織纖維</td>
-        <td style="font-size:.78rem;color:var(--muted)">2026/11/13</td>
-        <td class="num" style="color:var(--muted)">369</td>
-        <td class="num">386.5</td>
-        <td class="num watch-ret" style="color:var(--red)">+4.74%</td>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=3035" target="_blank" style="color:var(--blue)">3035</a></td>
+        <td>智原 </td>
+        <td style="font-size:.78rem;color:var(--purple)">半導體</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/14</td>
+        <td class="num" style="color:var(--muted)">178.5</td>
+        <td class="num">196</td>
+        <td class="num watch-ret" style="color:var(--red)">+9.80%</td>
         <td class="num watch-ret" style="color:var(--red)">+17,500</td>
-        <td class="num" style="color:var(--muted)">1天</td>
-        <td><div class="watch-reason">選股分 70<br>法人同買、動能健康+4.68%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">等待法人或族群訊號延續</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#ef4444;font-size:.68rem">今+4.7%</span></div></td>
-        <td><a href="https://histock.tw/stock/1476" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+        <td class="num" style="color:var(--muted)">0天</td>
+        <td><div class="watch-reason">選股分 81<br>法人同買、IP/ASIC+9.17%、主流題材、今日小跌</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#f0fdf4;color:#15803d;border:1px solid #86efac">續抱觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">小獲利且訊號偏多</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#7c3aed;font-size:.68rem">主流:IP/ASIC</span><span style="color:#ef4444;font-size:.68rem">今+9.8%</span></div></td>
+        <td><a href="https://histock.tw/stock/3035" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
-        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=9935" target="_blank" style="color:var(--blue)">9935</a></td>
-        <td>慶豐富 </td>
-        <td style="font-size:.78rem;color:var(--purple)">其他</td>
-        <td style="font-size:.78rem;color:var(--muted)">2026/11/13</td>
-        <td class="num" style="color:var(--muted)">19.85</td>
-        <td class="num">20.2</td>
-        <td class="num watch-ret" style="color:var(--red)">+1.76%</td>
-        <td class="num watch-ret" style="color:var(--red)">+350</td>
-        <td class="num" style="color:var(--muted)">1天</td>
-        <td><div class="watch-reason">選股分 70<br>法人同買、動能健康+2.58%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">尚未脫離成本區</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#ef4444;font-size:.68rem">今+1.8%</span></div></td>
-        <td><a href="https://histock.tw/stock/9935" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=3443" target="_blank" style="color:var(--blue)">3443</a></td>
+        <td>創意 </td>
+        <td style="font-size:.78rem;color:var(--purple)">半導體</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/14</td>
+        <td class="num" style="color:var(--muted)">7860</td>
+        <td class="num">8610</td>
+        <td class="num watch-ret" style="color:var(--red)">+9.54%</td>
+        <td class="num watch-ret" style="color:var(--red)">+750,000</td>
+        <td class="num" style="color:var(--muted)">0天</td>
+        <td><div class="watch-reason">選股分 81<br>法人同買、IP/ASIC+9.17%、主流題材、今日小跌</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#f0fdf4;color:#15803d;border:1px solid #86efac">續抱觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">小獲利且訊號偏多</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#7c3aed;font-size:.68rem">主流:IP/ASIC</span><span style="color:#ef4444;font-size:.68rem">今+9.5%</span></div></td>
+        <td><a href="https://histock.tw/stock/3443" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
-        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=3622" target="_blank" style="color:var(--blue)">3622</a></td>
-        <td>洋華 </td>
-        <td style="font-size:.78rem;color:var(--purple)">光電</td>
-        <td style="font-size:.78rem;color:var(--muted)">2026/11/13</td>
-        <td class="num" style="color:var(--muted)">39.85</td>
-        <td class="num">40.4</td>
-        <td class="num watch-ret" style="color:var(--red)">+1.38%</td>
-        <td class="num watch-ret" style="color:var(--red)">+550</td>
-        <td class="num" style="color:var(--muted)">1天</td>
-        <td><div class="watch-reason">選股分 63<br>法人同買、LCD-STN面板+2.08%、今日小跌</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">尚未脫離成本區</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#ef4444;font-size:.68rem">今+1.4%</span></div></td>
-        <td><a href="https://histock.tw/stock/3622" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2363" target="_blank" style="color:var(--blue)">2363</a></td>
+        <td>矽統 <span class="watch-tag">⭐今日雙訊</span></td>
+        <td style="font-size:.78rem;color:var(--purple)">半導體</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/14</td>
+        <td class="num" style="color:var(--muted)">47.05</td>
+        <td class="num">50.1</td>
+        <td class="num watch-ret" style="color:var(--red)">+6.48%</td>
+        <td class="num watch-ret" style="color:var(--red)">+3,050</td>
+        <td class="num" style="color:var(--muted)">0天</td>
+        <td><div class="watch-reason">選股分 79<br>法人同買、IC-設計+5.93%、主流題材、今日小跌</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#f0fdf4;color:#15803d;border:1px solid #86efac">續抱觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">小獲利且訊號偏多</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#7c3aed;font-size:.68rem">主流:IC-設計</span><span style="color:#ef4444;font-size:.68rem">今+6.5%</span></div></td>
+        <td><a href="https://histock.tw/stock/2363" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
         <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2388" target="_blank" style="color:var(--blue)">2388</a></td>
         <td>威盛 <span class="watch-tag">⭐今日雙訊</span></td>
         <td style="font-size:.78rem;color:var(--purple)">半導體</td>
         <td style="font-size:.78rem;color:var(--muted)">2026/11/14</td>
-        <td class="num" style="color:var(--muted)">58.2</td>
+        <td class="num" style="color:var(--muted)">55.2</td>
         <td class="num">58.2</td>
-        <td class="num watch-ret" style="color:var(--muted)">+0.00%</td>
-        <td class="num watch-ret" style="color:var(--muted)">+0</td>
+        <td class="num watch-ret" style="color:var(--red)">+5.43%</td>
+        <td class="num watch-ret" style="color:var(--red)">+3,000</td>
         <td class="num" style="color:var(--muted)">0天</td>
-        <td><div class="watch-reason">選股分 98<br>法人同買、IC-設計+5.93%、主流題材、動能健康+5.43%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">續抱觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">仍有多方訊號，先看一到兩天</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#7c3aed;font-size:.68rem">主流:IC-設計</span><span style="color:#ef4444;font-size:.68rem">今+5.4%</span><span style="color:#ef4444;font-size:.68rem">外資+614</span><span style="color:#ef4444;font-size:.68rem">投信+98</span></div></td>
+        <td><div class="watch-reason">選股分 79<br>法人同買、IC-設計+5.93%、主流題材、今日小跌</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#f0fdf4;color:#15803d;border:1px solid #86efac">續抱觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">小獲利且訊號偏多</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#7c3aed;font-size:.68rem">主流:IC-設計</span><span style="color:#ef4444;font-size:.68rem">今+5.4%</span><span style="color:#ef4444;font-size:.68rem">外資+614</span><span style="color:#ef4444;font-size:.68rem">投信+98</span></div></td>
         <td><a href="https://histock.tw/stock/2388" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2458" target="_blank" style="color:var(--blue)">2458</a></td>
+        <td>義隆 <span class="watch-tag">⭐今日雙訊</span></td>
+        <td style="font-size:.78rem;color:var(--purple)">半導體</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/14</td>
+        <td class="num" style="color:var(--muted)">116</td>
+        <td class="num">119</td>
+        <td class="num watch-ret" style="color:var(--red)">+2.59%</td>
+        <td class="num watch-ret" style="color:var(--red)">+3,000</td>
+        <td class="num" style="color:var(--muted)">0天</td>
+        <td><div class="watch-reason">選股分 79<br>法人同買、IC-設計+5.93%、主流題材、今日小跌</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">續抱觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">仍有多方訊號，先看一到兩天</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#7c3aed;font-size:.68rem">主流:IC-設計</span><span style="color:#ef4444;font-size:.68rem">今+2.6%</span></div></td>
+        <td><a href="https://histock.tw/stock/2458" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
+      </tr><tr>
+        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2436" target="_blank" style="color:var(--blue)">2436</a></td>
+        <td>偉詮電 <span class="watch-tag">⭐今日雙訊</span></td>
+        <td style="font-size:.78rem;color:var(--purple)">半導體</td>
+        <td style="font-size:.78rem;color:var(--muted)">2026/11/14</td>
+        <td class="num" style="color:var(--muted)">53.9</td>
+        <td class="num">55</td>
+        <td class="num watch-ret" style="color:var(--red)">+2.04%</td>
+        <td class="num watch-ret" style="color:var(--red)">+1,100</td>
+        <td class="num" style="color:var(--muted)">0天</td>
+        <td><div class="watch-reason">選股分 79<br>法人同買、IC-設計+5.93%、主流題材、今日小跌</div></td>
+        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">續抱觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">仍有多方訊號，先看一到兩天</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#7c3aed;font-size:.68rem">主流:IC-設計</span><span style="color:#ef4444;font-size:.68rem">今+2.0%</span></div></td>
+        <td><a href="https://histock.tw/stock/2436" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
         <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=3034" target="_blank" style="color:var(--blue)">3034</a></td>
         <td>聯詠 <span class="watch-tag">⭐今日雙訊</span></td>
@@ -2012,45 +2736,6 @@ tr:hover td{background:#e9f1fb}
         <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">續抱觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">仍有多方訊號，先看一到兩天</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#7c3aed;font-size:.68rem">主流:IC-設計</span><span style="color:#ef4444;font-size:.68rem">今+2.6%</span><span style="color:#ef4444;font-size:.68rem">外資+256</span><span style="color:#ef4444;font-size:.68rem">投信+167</span></div></td>
         <td><a href="https://histock.tw/stock/3034" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
-        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=4919" target="_blank" style="color:var(--blue)">4919</a></td>
-        <td>新唐 <span class="watch-tag">⭐今日雙訊</span></td>
-        <td style="font-size:.78rem;color:var(--purple)">半導體</td>
-        <td style="font-size:.78rem;color:var(--muted)">2026/11/14</td>
-        <td class="num" style="color:var(--muted)">106.5</td>
-        <td class="num">106.5</td>
-        <td class="num watch-ret" style="color:var(--muted)">+0.00%</td>
-        <td class="num watch-ret" style="color:var(--muted)">+0</td>
-        <td class="num" style="color:var(--muted)">0天</td>
-        <td><div class="watch-reason">選股分 98<br>法人同買、IC-設計+5.93%、主流題材、動能健康+3.9%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">續抱觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">仍有多方訊號，先看一到兩天</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#7c3aed;font-size:.68rem">主流:IC-設計</span><span style="color:#ef4444;font-size:.68rem">今+3.9%</span><span style="color:#ef4444;font-size:.68rem">外資+268</span><span style="color:#ef4444;font-size:.68rem">投信+82</span></div></td>
-        <td><a href="https://histock.tw/stock/4919" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
-      </tr><tr>
-        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2458" target="_blank" style="color:var(--blue)">2458</a></td>
-        <td>義隆 <span class="watch-tag">⭐今日雙訊</span></td>
-        <td style="font-size:.78rem;color:var(--purple)">半導體</td>
-        <td style="font-size:.78rem;color:var(--muted)">2026/11/14</td>
-        <td class="num" style="color:var(--muted)">119</td>
-        <td class="num">119</td>
-        <td class="num watch-ret" style="color:var(--muted)">+0.00%</td>
-        <td class="num watch-ret" style="color:var(--muted)">+0</td>
-        <td class="num" style="color:var(--muted)">0天</td>
-        <td><div class="watch-reason">選股分 98<br>法人同買、IC-設計+5.93%、主流題材、動能健康+2.59%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">續抱觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">仍有多方訊號，先看一到兩天</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#7c3aed;font-size:.68rem">主流:IC-設計</span><span style="color:#ef4444;font-size:.68rem">今+2.6%</span></div></td>
-        <td><a href="https://histock.tw/stock/2458" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
-      </tr><tr>
-        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2436" target="_blank" style="color:var(--blue)">2436</a></td>
-        <td>偉詮電 <span class="watch-tag">⭐今日雙訊</span></td>
-        <td style="font-size:.78rem;color:var(--purple)">半導體</td>
-        <td style="font-size:.78rem;color:var(--muted)">2026/11/14</td>
-        <td class="num" style="color:var(--muted)">55</td>
-        <td class="num">55</td>
-        <td class="num watch-ret" style="color:var(--muted)">+0.00%</td>
-        <td class="num watch-ret" style="color:var(--muted)">+0</td>
-        <td class="num" style="color:var(--muted)">0天</td>
-        <td><div class="watch-reason">選股分 98<br>法人同買、IC-設計+5.93%、主流題材、動能健康+2.04%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">續抱觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">仍有多方訊號，先看一到兩天</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#7c3aed;font-size:.68rem">主流:IC-設計</span><span style="color:#ef4444;font-size:.68rem">今+2.0%</span></div></td>
-        <td><a href="https://histock.tw/stock/2436" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
-      </tr><tr>
         <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=5269" target="_blank" style="color:var(--blue)">5269</a></td>
         <td>祥碩 <span class="watch-tag">⭐今日雙訊</span></td>
         <td style="font-size:.78rem;color:var(--purple)">半導體</td>
@@ -2064,19 +2749,6 @@ tr:hover td{background:#e9f1fb}
         <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">續抱觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">仍有多方訊號，先看一到兩天</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#7c3aed;font-size:.68rem">主流:IC-設計</span><span style="color:#ef4444;font-size:.68rem">今+3.6%</span></div></td>
         <td><a href="https://histock.tw/stock/5269" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr><tr>
-        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2363" target="_blank" style="color:var(--blue)">2363</a></td>
-        <td>矽統 <span class="watch-tag">⭐今日雙訊</span></td>
-        <td style="font-size:.78rem;color:var(--purple)">半導體</td>
-        <td style="font-size:.78rem;color:var(--muted)">2026/11/14</td>
-        <td class="num" style="color:var(--muted)">50.1</td>
-        <td class="num">50.1</td>
-        <td class="num watch-ret" style="color:var(--muted)">+0.00%</td>
-        <td class="num watch-ret" style="color:var(--muted)">+0</td>
-        <td class="num" style="color:var(--muted)">0天</td>
-        <td><div class="watch-reason">選股分 88<br>法人同買、IC-設計+5.93%、主流題材、偏熱等拉回+6.48%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">續抱觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">仍有多方訊號，先看一到兩天</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#7c3aed;font-size:.68rem">主流:IC-設計</span><span style="color:#ef4444;font-size:.68rem">今+6.5%</span></div></td>
-        <td><a href="https://histock.tw/stock/2363" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
-      </tr><tr>
         <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=6531" target="_blank" style="color:var(--blue)">6531</a></td>
         <td>愛普 <span class="watch-tag">⭐今日雙訊</span></td>
         <td style="font-size:.78rem;color:var(--purple)">半導體</td>
@@ -2089,19 +2761,6 @@ tr:hover td{background:#e9f1fb}
         <td><div class="watch-reason">選股分 84<br>法人同買、概念股_矽智財IP+8.95%、主流題材、偏熱等拉回+5.76%</div></td>
         <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">續抱觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">仍有多方訊號，先看一到兩天</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#16a34a;font-size:.68rem">●法人買</span><span style="color:#7c3aed;font-size:.68rem">主流:概念股_矽智財IP</span><span style="color:#ef4444;font-size:.68rem">今+5.8%</span></div></td>
         <td><a href="https://histock.tw/stock/6531" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
-      </tr><tr>
-        <td class="code"><a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=6423" target="_blank" style="color:var(--blue)">6423</a></td>
-        <td>億而得 <span class="watch-tag">⭐今日雙訊</span></td>
-        <td style="font-size:.78rem;color:var(--purple)">電子工</td>
-        <td style="font-size:.78rem;color:var(--muted)">2026/11/14</td>
-        <td class="num" style="color:var(--muted)">84.2</td>
-        <td class="num">84.2</td>
-        <td class="num watch-ret" style="color:var(--muted)">+0.00%</td>
-        <td class="num watch-ret" style="color:var(--muted)">+0</td>
-        <td class="num" style="color:var(--muted)">0天</td>
-        <td><div class="watch-reason">選股分 84<br>IP/ASIC+9.17%、主流題材、動能健康+2.06%</div></td>
-        <td><div style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:bold;white-space:nowrap;background:#eef2ff;color:#3730a3;border:1px solid #a5b4fc">續抱觀察</div><div style="font-size:.66rem;color:var(--muted);margin-top:3px;max-width:220px;line-height:1.35">仍有多方訊號，先看一到兩天</div><div style="margin-top:3px;display:flex;flex-wrap:wrap;gap:3px"><span style="color:#9ca3af;font-size:.68rem">○法人未現</span><span style="color:#7c3aed;font-size:.68rem">主流:IP/ASIC</span><span style="color:#ef4444;font-size:.68rem">今+2.1%</span></div></td>
-        <td><a href="https://histock.tw/stock/6423" target="_blank" style="color:#0ea5e9;font-size:.75rem">HiStock</a></td>
       </tr>
     </tbody>
   </table>
@@ -2223,7 +2882,7 @@ tr:hover td{background:#e9f1fb}
   </div>
 </div>
 
-<div class="footer">資料來源：TWSE T86 / Goodinfo / CMoney / StockWarden ｜ 產生：2026/11/14 上午8:06:06 ｜ ⭐金色 = AI候選</div>
+<div class="footer">資料來源：TWSE T86 / Goodinfo / CMoney / StockWarden ｜ 產生：2026/11/14 下午1:56:18 ｜ ⭐金色 = AI候選</div>
 </div>
 
 <script>
